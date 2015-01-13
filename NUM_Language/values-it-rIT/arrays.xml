@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_overlay_intensity_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_overlay_intensity_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_scaleMode_options">
+        <item>Scale (mantenere il rapporto di aspetto)</item>
+        <item>Stretch per adattarsi schermo</item>
+        <item>Formato originale</item>
+        <item>1.5X</item>
+        <item>2X</item>
+        <item>2.5X</item>
+        <item>3X</item>
+        <item>3.5X</item>
+        <item>4X</item>
+        <item>4.5X</item>
+        <item>5X</item>
+    </string-array>
+    <string-array name="pref_scaleMode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="pref_global_video_render_options">
+        <item>SW (Compatibilità)</item>
+        <item>GL (Faster)</item>
+    </string-array>
+    <string-array name="pref_global_video_render_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_controller_type_options">
+        <item>Digital DPAD</item>
+        <item>Digital Stick</item>
+        <item>Analogico-digitale (Performance)</item>
+        <item>Analogico-digitale (Pretty)</item>
+    </string-array>
+    <string-array name="pref_controller_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_input_external_options">
+        <item>Tastiera o IME</item>
+        <item>GamePad Rilevamento automatico</item>
+        <item>Icade originale</item>
+        <item>ICP, Gametel o Icade compatibile</item>
+    </string-array>
+    <string-array name="pref_input_external_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_dz_options">
+        <item>nessuno</item>
+        <item>basso</item>
+        <item>normale</item>
+        <item>alto</item>
+        <item>molto alta</item>
+    </string-array>
+    <string-array name="pref_dz_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_frameskip_options">
+        <item>auto</item>
+        <item>nessuno</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_frameskip_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_sound_options">
+        <item>spento</item>
+        <item>On (11 KHz)</item>
+        <item>On (22 Khz)</item>
+        <item>On (33 Khz)</item>
+        <item>On (44 Khz)</item>
+        <item>On (48 Khz)</item>
+    </string-array>
+    <string-array name="pref_sound_values">
+        <item>-1</item>
+        <item>11025</item>
+        <item>22050</item>
+        <item>32000</item>
+        <item>44100</item>
+        <item>48000</item>
+    </string-array>
+    <string-array name="pref_stick_options">
+        <item>Auto</item>
+        <item>2-vie</item>
+        <item>4-vie</item>
+        <item>8-vie</item>
+    </string-array>
+    <string-array name="pref_stick_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="pref_numbuttons_options">
+        <item>Auto</item>
+        <item>0 pulsanti</item>
+        <item>1 pulsanti</item>
+        <item>2 pulsanti</item>
+        <item>3 pulsanti (A=B+X)</item>
+        <item>3 pulsanti</item>
+        <item>4 pulsanti</item>
+        <item>tutto pulsanti</item>
+    </string-array>
+    <string-array name="pref_numbuttons_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>33</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_resolution_options">
+        <item>Auto (raccomandato)</item>
+        <item>320x200</item>
+        <item>320x240</item>
+        <item>400x300</item>
+        <item>480x300</item>
+        <item>512x384</item>
+        <item>640x400</item>
+        <item>640x480</item>
+        <item>800x600</item>
+        <item>1024x768</item>
+    </string-array>
+    <string-array name="pref_resolution_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_buttons_size_options">
+        <item>minore</item>
+        <item>piccolo</item>
+        <item>normale</item>
+        <item>grande</item>
+        <item>maggiore</item>
+    </string-array>
+    <string-array name="pref_buttons_size_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_low_norm_or_hight_options">
+        <item>basso</item>
+        <item>normale</item>
+        <item>Hight</item>
+    </string-array>
+    <string-array name="pref_low_norm_or_hight_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_sound_engine_options">
+        <item>AudioTrack</item>
+        <item>AudioTrack latenza elevata (sicuro)</item>
+        <item>OpenSL</item>
+        <item>OpenSL latenza molto bassa (meglio)</item>
+    </string-array>
+    <string-array name="pref_sound_engine_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_speed_options">
+        <item>difetto</item>
+        <item>50 pct.</item>
+        <item>60 pct.</item>
+        <item>70 pct.</item>
+        <item>80 pct.</item>
+        <item>85 pct.</item>
+        <item>90 pct.</item>
+        <item>95 pct.</item>
+        <item>100 pct.</item>
+        <item>105 pct.</item>
+        <item>110 pct.</item>
+        <item>115 pct.</item>
+        <item>120 pct.</item>
+        <item>130 pct.</item>
+        <item>140 pct.</item>
+        <item>150 pct.</item>
+    </string-array>
+    <string-array name="pref_speed_values">
+        <item>-1</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="pref_autofire_options">
+        <item>disabile</item>
+        <item>velocità 1</item>
+        <item>velocità 2</item>
+        <item>velocità 3</item>
+        <item>velocità 4</item>
+        <item>velocità 5</item>
+        <item>velocità 6</item>
+        <item>velocità 7</item>
+        <item>velocità 8</item>
+        <item>velocità 9</item>
+    </string-array>
+    <string-array name="pref_autofire_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="pref_vsync_options">
+        <item>Cassaforte (Gioco segnalato)</item>
+        <item>50Hz</item>
+        <item>60HZ</item>
+        <item>OS-segnalati</item>
+    </string-array>
+    <string-array name="pref_vsync_values">
+        <item>-1</item>
+        <item>5000</item>
+        <item>6000 </item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_automap_options">
+        <item>Pollici disabili</item>
+        <item>Pollici opzioni e Exit</item>
+        <item>Pollici come Coin e avvio</item>
+        <item>L1, R1 come Opzioni ed Esci</item>
+        <item>L1, R1 come Coin e avvio</item>
+    </string-array>
+    <string-array name="pref_automap_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_tilt_neutralz_options">
+        <item>90 gradi</item>
+        <item>80 gradi</item>
+        <item>70 gradi</item>
+        <item>60 gradi</item>
+        <item>50 gradi</item>
+        <item>45 gradi</item>
+        <item>40 gradi</item>
+        <item>30 gradi</item>
+        <item>20 gradi</item>
+        <item>10 gradi</item>
+    </string-array>
+    <string-array name="pref_tilt_neutralz_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="pref_px_options">
+        <item>MAME (arcade originale 4/3)</item>
+        <item>Aspetto dei pixel forzata</item>
+        <item>Aspetto dei pixel forzato (Smart)</item>
+    </string-array>
+    <string-array name="pref_px_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dialoghelper_option_list">
+        <item>Salva Games</item>
+        <item>Giochi di carico</item>
+        <!-- <item>Suspend/Start</item> -->
+        <item>imbrogliare</item>
+        <item>MutilPress</item>
+        <item>MutilKeys</item>
+        <item>impostazione</item>
+        <!-- <item>Save Games</item> -->
+        <!-- <item>Load Games</item> -->
+
+
+        <!-- <item>On File</item> -->
+
+
+        <!-- <item>Help</item> -->
+        <!-- <item>About</item> -->
+
+
+        <!--
+        <item>其它游戏</item>
+        <item>WIFI GAMES</item>
+        <item>NEW GAMES</item>
+        <item>BT SERVER</item>
+        <item>BT CLIENT</item>
+        -->
+
+
+        <!-- <item>WIFI Server</item> -->
+        <!-- <item>WIFI Client</item> -->
+        <!-- <item>WIFI Address</item> -->
+    </string-array>
+    <!--
+    <string-array name="dialoghelper_option_list">
+        <item>Cheat</item>
+        <item>Suspend/Start</item>
+        <item>Save Games</item>
+        <item>Load Games</item>
+        <item>Load Games</item>
+        <item>On File</item>
+        <item>Setting</item>
+        <item>Help</item>
+        <item>About</item>
+        <item>Macro Keys</item>
+        <item>Composite Key</item>
+
+        
+        <item>其它游戏</item>
+        <item>WIFI GAMES</item>
+        <item>NEW GAMES</item>
+        <item>BT SERVER</item>
+        <item>BT CLIENT</item>
+       
+
+
+        <item>WIFI Server</item>
+        <item>WIFI Client</item>
+        <item>WIFI Address</item>
+    </string-array>
+    -->
+    <string-array name="dialoghelper_option_list_imgname">
+        <item>ic_save_white.PNG</item>
+        <item>ic_load_white.PNG</item>
+        <!-- <item>ic_multikey_white.PNG</item> -->
+        <item>ic_cheat_white.PNG</item>
+        <item>ic_multipress_white.PNG</item>
+        <item>ic_multikey_white.PNG</item>
+        <item>ic_setting_white.PNG</item>
+    </string-array>
+    <string-array name="dialoghelper_option_img">
+
+        <!-- white -->
+        <item name="option_save_img">@drawable/ic_save_white</item>
+        <item name="option_load_img">@drawable/ic_load_white</item>
+        <!-- <item name="option_suspend_img">@drawable/ic_multikey_white</item> -->
+        <item name="option_cheat_img">@drawable/ic_cheat_white</item>
+        <item name="option_multipress_img">@drawable/ic_multipress_white</item>
+        <item name="option_multikey_img">@drawable/ic_multikey_white</item>
+        <item name="option_setting_img">@drawable/ic_setting_white</item>
+    </string-array>
+
+    <array name="dialoghelper_option_id">
+        <item>@id/option_save</item>
+        <item>@id/option_load</item>
+        <!-- <item>@id/option_suspend</item> -->
+        <item>@id/option_cheat</item>
+        <item>@id/option_multipress</item>
+        <item>@id/option_multikey</item>
+        <item>@id/option_setting</item>
+    </array>
+
+    <string-array name="sliding_title">
+
+        <!-- <item name="sliding_search_title">Refresh</item> -->
+        <!-- <item name="sliding_hiscore_title">排行榜</item> -->
+        <!-- <item name="sliding_recommend_title">Recommend</item> -->
+        <!-- <item name="sliding_help_title">Help</item> -->
+        <item name="sliding_save_title">archivio</item>
+        <item name="sliding_setting_title">impostazione</item>
+        <item name="sliding_about_title">circa</item>
+        <item name="sliding_exit_title">Exit</item>
+    </string-array>
+
+    <array name="sliding_img">
+        <item name="sliding_save_img">@drawable/ic_sliding_archive</item>
+        <item name="sliding_setting_img">@drawable/ic_sliding_setting</item>
+        <item name="sliding_about_img">@drawable/ic_sliding_about</item>
+        <item name="sliding_exit_img">@drawable/ic_sliding_exit</item>
+    </array>
+    <array name="sliding_id">
+        <item>@id/sliding_save</item>
+        <item>@id/sliding_setting</item>
+        <item>@id/sliding_about</item>
+        <item>@id/sliding_exit</item>
+    </array>
+
+    <string-array name="dl_url_name">
+        <item>1~ba MAME	</item>
+        <item>ba~ca MAME </item>
+        <item>ca~ct MAME </item>
+        <item>ct~ds MAME </item>
+        <item>ds~ga MAME </item>
+        <item>ga~ha MAME </item>
+        <item>ha~ka MAME </item>
+        <item>ka~ma MAME </item>
+        <item>ma~mq MAME </item>
+        <item>mr~oz MAME </item>
+        <item>p4~pp MAME </item>
+        <item>pr~ro MAME </item>
+        <item>ro~sh MAME </item>
+        <item>sh~ss MAME </item>
+        <item>ss~th MAME </item>
+        <item>ti~vh MAME </item>
+        <item>vi~zz MAME </item>
+    </string-array>
+    <string-array name="dl_url_item">
+        <item>66528</item>
+        <item>66008</item>
+        <item>65489</item>
+        <item>64966</item>
+        <item>64447</item>
+        <item>63929</item>
+        <item>63408</item>
+        <item>62886</item>
+        <item>62886</item>
+        <item>62371</item>
+        <item>61858</item>
+        <item>61344</item>
+        <item>60818</item>
+        <item>60298</item>
+        <item>59770</item>
+        <item>59243</item>
+        <item>58739</item>
+        <item>58246</item>
+    </string-array>
+    <!-- share -->
+    <string-array name="share_img">
+        <item name="share_sina_img">@drawable/ic_sina</item>
+        <item name="share_wechat_img">@drawable/ic_wechat</item>
+        <item name="share_facebook_img">@drawable/ic_facebook</item>
+        <item name="share_twitter_img">@drawable/ic_twitter</item>
+    </string-array>
+
+    <array name="share_id">
+        <item>@id/share_sina_id</item>
+        <item>@id/share_wechat_id</item>
+        <item>@id/share_facebook_id</item>
+        <item>@id/share_twitter_id</item>
+    </array>
+
+</resources>

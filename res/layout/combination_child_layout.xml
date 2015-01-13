@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/combination_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="2dp" >
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/BTN_OPTIONS_COMPOSEKEY"
+        android:textColor="@color/combination_title_color"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="1.0dip"
+        android:paddingRight="1.0dip" >
+
+        <!--
+             <com.yunluo.android.arcadehub.combination.wheel.WheelView
+            android:id="@+id/country"
+            android:layout_width="44dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center" />
+        -->
+
+        <include
+            android:id="@+id/cbt_wheel"
+            android:layout_width="44dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            layout="@layout/combination_wheel" />
+
+        <TextView
+            android:id="@+id/tv_0"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/cbt_wheel"
+            android:gravity="center"
+            android:text="="
+            android:textColor="@color/plugin_behind_bg" />
+
+        <CheckBox
+            android:id="@+id/cbx_0"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tv_0"
+            android:background="@drawable/but_x_check_selection"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/cbx_0"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/plugin_behind_bg" />
+
+        <CheckBox
+            android:id="@+id/cbb_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tv_1"
+            android:background="@drawable/but_b_check_selection"
+            android:button="@null"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/cbb_1"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/plugin_behind_bg" />
+
+        <CheckBox
+            android:id="@+id/cby_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tv_2"
+            android:background="@drawable/but_y_check_selection"
+            android:button="@null"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/cby_2"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/plugin_behind_bg" />
+
+        <CheckBox
+            android:id="@+id/cba_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tv_3"
+            android:background="@drawable/but_a_check_selection"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/but_ok"
+            android:layout_width="52dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/BTN_COMMON_OK" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/show_ok_key_layout"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

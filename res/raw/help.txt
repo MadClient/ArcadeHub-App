@@ -1,0 +1,31 @@
+﻿
+			Arcade Hub
+
+	1 game added
+	
+	Players can be placed the game rom in sd card ( phone running game centers must insert sd card ) , arcade games rom detects the position of the center to facilitate the players directly loaded.
+ 
+	2 cheat function :
+		
+	Arcade game Center offers open cheat function. Start Method : In the running game interface , exhaled the Options menu, select to open a specific interface cheat option.
+ 
+	3 a combination of key features:
+		
+	A function key combinations can be converted into a separate button functions simultaneously pressing multiple buttons effect. Activation Method : In the game running interface , exhaled the Options menu, select the key combination to open the key combination settings panel , the key combination Layout button to slide up and down the left side in order to confirm the effect of a single button on the key needs to be converted , the right side of the layout can be multiple choice key combination. Players can set multiple keys key combination.
+
+	4 Key macro function :
+		
+	You can record a macro function key players through a specific sequence of buttons and a separate button to use multiple times. Activation Method : In the game running interface , exhaled the Options menu, select the macro button , open the Macro Settings button layout , button layout macros can slide up and down the left button in order to confirm the effect of a single button on the key needs to be converted , the right side portion of the layout is the key combination to record , players can operate below the joysticks and buttons in order to record , while recording errors can be revoked by the bottom right button to order a single button revocation action. Players can record a macro button keys , the keys and key combinations can not be enabled simultaneously .
+
+	5 game saves and read function :
+		
+	Arcade game centers can be the current instant archive and read. Activation Method : In the game running interface , exhaled the Options menu, select the archive ( read files ) , the archive interface, click on already existing save game will be archived coverage , click on the option to create a new archive will save a new game archives. In reading the file interface options you can select the game file to read files already stored .
+
+	6 Bluetooth games:
+
+	Players are asked to turn on Bluetooth , the choice is to enter standby mode , as found by other players , click on the other players into the connected mode , the connection is successful to start the game ( Note : If the person does not exist game package , enter the file transfer mode , file transfer is done directly start the game ) .
+
+	7 network play :
+		
+	Select Yes to enter standby mode , as found by other players , click on the other players into the connected mode , the connection is successful to start the game ( Note : If the person does not exist game package , enter the file transfer mode , file transfer is done directly start the game ) .
+ 

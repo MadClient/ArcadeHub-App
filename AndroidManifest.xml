@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yunluo.android.arcadehub"
+    android:installLocation="auto"
+    android:versionCode="6"
+    android:versionName="1.2.1" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.yunluo.android.arcadehub.BaseApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:debuggable="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+
+        <activity
+            android:name="com.yunluo.android.arcadehub.GameLogoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MAME4droid" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yunluo.android.arcadehub.GameListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+
+        </activity>
+        <activity
+            android:name="com.yunluo.android.arcadehub.GamePlayActivity"
+            android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme_Anim_Activity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="com.yunluo.android.arcadehub.GameSettingActivity"
+            android:label="@string/fest_label_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity_Title" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.HelpActivity"
+            android:label="@string/LISTITEM_ABOUT_HELP"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.AboutActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" >
+        </activity>
+        <activity
+            android:name="com.yunluo.android.arcadehub.prefs.DefineKeys"
+            android:label="@string/fest_label_define_keys"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MAME4droid.TitleBar" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.prefs.ListKeys"
+            android:label="@string/fest_label_player_keys"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MAME4droid.TitleBar" />
+        <activity
+            android:name=".prefs.KeySelect"
+            android:label="@string/fest_label_select_keys"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.download.DownLoadActivity"
+            android:label="@string/fest_label_reload_rec"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.download.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.netplay.NetPlayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.cheat.CheatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.save.ArchiveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.save.ArchiveSubActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.save.ArchiveSaveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <activity
+            android:name="com.yunluo.android.arcadehub.LicenseActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Anim_Activity" />
+        <meta-data
+            android:name="xperiaplayoptimized_content"
+            android:resource="@drawable/icon" />
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+Centre Arcade
+
+1.jeu supplémentaire
+
+  Les joueurs peuvent être placés dans le jeu de cartes rom sd ( centres de jeux téléphone en cours d'exécution doivent insérer la carte SD ) , jeux d'arcade rom détecte la position du centre de faciliter les acteurs directement chargés .
+         
+2.fonction de triche :
+
+Centre de jeu électronique triche triche propose la fonction ouverte . Lancer Méthode: Dans l'interface de jeu de course , expiré le menu Options, sélectionnez triche triche triche triche dans triche ouvrir une option d'interface spécifique .
+         
+3.une combinaison de caractéristiques clés :
+
+A la combinaison de touches de fonction peuvent être convertis en une des fonctions des boutons séparés appuyant simultanément sur plusieurs boutons effet . Méthode d'activation : Dans le jeu de course interface, expiré le menu Options , sélectionnez la combinaison de touches pour ouvrir la clé panneau des paramètres de combinaison , le bouton de mise en page de la combinaison de touches à glisser vers le haut et sur ​​le côté gauche afin de confirmer l'effet d'un seul bouton sur la clé doit être converti , le côté droit de la mise en page peut être à choix multiples combinaison de touches . Les joueurs peuvent définir plusieurs touches de combinaison de touches .
+
+4.Touche rouge macro pouvez:
+         
+Vous pouvez enregistrer une macro joueurs de touches de fonction par une séquence spécifique de boutons et un bouton distinct pour utiliser plusieurs fois . Méthode d'activation : Dans le jeu l'interface en cours d'exécution , expiré le menu Options , sélectionnez le bouton macro , ouvrez la disposition des boutons Paramètres des macros , macros bouton de mise en page peuvent glisser vers le haut et vers le bas le bouton gauche afin de confirmer l'effet d'un seul bouton sur la clé doit être converties , la partie de droite de la mise en page est la combinaison de touches à enregistrer , les joueurs peuvent utiliser ci-dessous les joysticks et boutons afin d'enregistrer , tandis que les erreurs d'enregistrement peuvent être révoqués par le bouton en bas à droite de commander un seul bouton d'action de révocation . Les joueurs peuvent enregistrer une macro touches de boutons, les touches et combinaisons de touches ne peuvent pas être activées simultanément .
+         
+5.jeu enregistre fonction de lecture :
+
+Centres de jeux d'arcade peuvent être l'archive instant courant et lire. Méthode d'activation : Dans le jeu de course interface, expiré le menu Options , sélectionnez l'archive ( lire les fichiers ) , l'interface de l'archive , cliquez sur déjà sauvegarde existante sera archivée couverture , cliquez sur l'option de créer une nouvelle archive enregistrer un nouveau jeu archives . En lisant les options de l'interface de fichiers , vous pouvez sélectionner le fichier de jeu pour lire les fichiers déjà stockés .
+        
+6.jeux Bluetooth :
+
+Les joueurs sont invités à activer le Bluetooth , le choix est de passer en mode veille, que l'on trouve par d'autres joueurs , cliquez sur les autres joueurs dans le mode connecté , la connexion est réussie pour démarrer le jeu (Note : Si la personne n'existe pas paquet de jeu , entrer dans le mode de transfert de fichiers , transfert de fichiers se fait commencer directement le jeu ) .
+        
+7.le jeu en réseau :
+
+Sélectionnez Oui pour passer en mode veille, comme l' a constaté par d'autres joueurs , cliquez sur les autres joueurs dans le mode connecté , la connexion est réussie pour démarrer le jeu (Note : Si la personne n'existe pas paquet de jeu , entrer dans le mode de transfert de fichiers , transfert de fichiers se fait directement commencer le jeu ) .

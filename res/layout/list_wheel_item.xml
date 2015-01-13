@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="72dip"
+        android:layout_height="72dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon" />
+<!--         android:padding="5dp" -->
+<!--         android:cropToPadding="true" -->
+
+</LinearLayout>

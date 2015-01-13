@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/push_txt_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="240dp"
+    android:background="@drawable/push_txt_bg" >
+
+    <TextView
+        android:id="@+id/push_txt_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#505050"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="提醒"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/push_txt_scroll_lyt"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/push_txt_title"
+        android:layout_marginTop="8dp" >
+
+        <RelativeLayout
+            android:id="@+id/push_txt_child_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/push_txt_img"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/push_txt_msg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="一个新的游戏包，是否要下载？"
+                android:layout_margin="8dp"
+                android:layout_toRightOf="@+id/push_txt_img"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/push_txt_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/push_txt_scroll_lyt"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/push_txt_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/push_txt_line" >
+
+        <Button
+            android:id="@+id/push_txt_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gamelist_push_yes" />
+
+        <Button
+            android:id="@+id/push_txt_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gamelist_push_no" />
+    </LinearLayout>
+
+</RelativeLayout>

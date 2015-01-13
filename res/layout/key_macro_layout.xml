@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keymacro_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/keymacro_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/keymacro_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/BTN_OPTIONS_MARCO" />
+
+        <!-- android:layout_above="@+id/keymacro_btn_layout" -->
+
+        <RelativeLayout
+            android:id="@+id/keymacro_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/keymacro_gridview_lyt"
+            android:layout_below="@+id/keymacro_title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:gravity="center" >
+
+            <!-- <com.yunluo.android.arcadehub.wheel.WheelView -->
+            <!-- android:layout_above="@+id/wheel_bottom" -->
+
+            <com.yunluo.android.arcadehub.combination.wheel.WheelView
+                android:id="@+id/wheel_center"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wheel_top"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical"
+                android:background="#00000000" />
+
+            <ImageView
+                android:id="@+id/wheel_top"
+                android:layout_width="72dp"
+                android:layout_height="24dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/keymacro_up_bg" />
+
+            <!-- android:layout_alignParentBottom="true" -->
+
+            <ImageView
+                android:id="@+id/wheel_bottom"
+                android:layout_width="72dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/wheel_center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/keymacro_down_bg" />
+        </RelativeLayout>
+
+        <!-- android:layout_below="@+id/keymacro_title" -->
+
+        <RelativeLayout
+            android:id="@+id/keymacro_gridview_lyt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@+id/keymacro_radiogroup"
+            android:background="@drawable/keymacro_grid_bg">
+
+            <GridView
+                android:id="@+id/keymacro_gridview"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:columnWidth="36dp"
+                android:numColumns="auto_fit"
+                android:scaleType="fitXY"
+                android:stretchMode="columnWidth" >
+            </GridView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/keymacro_delete"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/keymacro_gridview_lyt"
+            android:layout_alignRight="@+id/keymacro_gridview_lyt"
+            android:src="@drawable/ic_keymacro_delete" />
+
+        <ImageView
+            android:id="@+id/keymacro_reset"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/keymacro_gridview_lyt"
+            android:layout_alignLeft="@+id/keymacro_gridview_lyt"
+            android:src="@drawable/ic_keymacro_reset" />
+        <!-- android:layout_marginRight="48dp" -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/keymacro_btn_layout" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentBottom="true" -->
+        <!-- android:layout_margin="4dp" > -->
+
+
+        <!-- <Button -->
+        <!-- android:id="@+id/keymacro_btn_reset" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:text="@string/keymacro_reset" /> -->
+
+
+        <!-- <Button -->
+        <!-- android:id="@+id/keymacro_btn_delete" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:text="@string/keymacro_delete" /> -->
+
+
+        <!-- <Button -->
+        <!-- android:id="@+id/keymacro_btn_save" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:text="@string/keymacro_save" /> -->
+
+
+        <!-- <Button -->
+        <!-- android:id="@+id/keymacro_btn_back" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:text="@string/keymacro_back" /> -->
+        <!-- </LinearLayout> -->
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/keymacro_close"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_keymacro_close" />
+
+</RelativeLayout>

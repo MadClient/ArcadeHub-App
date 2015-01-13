@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BTN_COMMON_CANCEL">取消</string>
+    <string name="BTN_COMMON_DELETE">删除</string>
+    <string name="BTN_COMMON_OK">确定</string>
+    <string name="BTN_OPTIONS_COMPOSEKEY">组合键</string>
+    <string name="BTN_OPTIONS_GOLDFINGER">金手指</string>
+    <string name="BTN_OPTIONS_MARCO">按键宏</string>
+    <string name="BTN_OPTIONS_UNARCHIVE">读档</string>
+    <string name="BTN_TEXT_GAMETYPE_BLUETOOTH">蓝牙对战</string>
+    <string name="BTN_TEXT_GAMETYPE_NETWORK">联网对战</string>
+    <string name="BTN_TEXT_GAMETYPE_SINGLE">单人游戏</string>
+    <string name="LISTITEM_ABOUT_HELP">帮助</string>
+    <string name="LISTITEM_ABOUT_PROTOCOL">协议</string>
+    <string name="LISTITEM_MENU_ABOUT">关于</string>
+    <string name="LISTITEM_MENU_ARCHIVE">存档</string>
+    <string name="LISTITEM_MENU_EXIT">退出</string>
+    <string name="LISTITEM_MENU_SETTING">设置</string>
+    <string name="LISTITEM_SETTING_ADVANCED_SUMMARY">打开高级设置选项</string>
+    <string name="LISTITEM_SETTING_ADVANCED_TITLE">高级</string>
+    <string name="LISTITEM_SETTING_ANALOG_DZ_TITLE">模拟触摸盲区</string>
+    <string name="LISTITEM_SETTING_ANIMATED_INPUT_SUMMARY">动画的触摸控制，禁用可以提升很大的性能</string>
+    <string name="LISTITEM_SETTING_ANIMATED_INPUT_TITLE">动画</string>
+    <string name="LISTITEM_SETTING_ANTIALIAS_SUMMARY">启用向量游戏的抗锯齿线性渲染</string>
+    <string name="LISTITEM_SETTING_ANTIALIAS_TITLE">消除锯齿</string>
+    <string name="LISTITEM_SETTING_AUTOFIRE_TITLE">按钮B为连射键</string>
+    <string name="LISTITEM_SETTING_AUTOMAP_OPTIONS_TITLE">游戏手柄自动映射设置</string>
+    <string name="LISTITEM_SETTING_BEAM2X_SUMMARY">设置向量的宽度为2倍</string>
+    <string name="LISTITEM_SETTING_BEAM2X_TITLE">宽度2倍</string>
+    <string name="LISTITEM_SETTING_BUTTONS_SIZE_TITLE">按钮大小(全屏)</string>
+    <string name="LISTITEM_SETTING_CONTROLLER_TYPE_2_TITLE">触摸类型</string>
+    <string name="LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_SUMMARY">选择自定义全屏控件布局</string>
+    <string name="LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_TITLE">自定义触控布局</string>
+    <string name="LISTITEM_SETTING_DEBUG_SUMMARY">仅适用于开发人员</string>
+    <string name="LISTITEM_SETTING_DEBUG_TITLE">调试模式</string>
+    <string name="LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_SUMMARY">恢复全屏控件布局为默认值</string>
+    <string name="LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_TITLE">默认触控类型</string>
+    <string name="LISTITEM_SETTING_DEFAULTSKEYS_SUMMARY">将按键还原为默认值</string>
+    <string name="LISTITEM_SETTING_DEFAULTSKEYS_TITLE">默认按键</string>
+    <string name="LISTITEM_SETTING_DEFINEKEYS_SUMMARY">选择需要映像的仿真器摇杆和按钮的物理按键。(Xperia Play和任何使用物理键盘的设备用户将在这里配置他们的按钮或按键)</string>
+    <string name="LISTITEM_SETTING_DEFINEKEYS_TITLE">定义按键</string>
+    <string name="LISTITEM_SETTING_DISABLE_RIGHT_STICK_SUMMARY">自动检测时禁用右摇杆</string>
+    <string name="LISTITEM_SETTING_DISABLE_RIGHT_STICK_TITLE">游戏手柄禁用右摇杆</string>
+    <string name="LISTITEM_SETTING_DOUBLE_BUFFER_SUMMARY">以降低性能为代价避免闪烁</string>
+    <string name="LISTITEM_SETTING_DOUBLE_BUFFER_TITLE">双缓冲</string>
+    <string name="LISTITEM_SETTING_EMULATED_RESOLUTION">仿真器分辨率</string>
+    <string name="LISTITEM_SETTING_FILTER_CATEGORY_TITLE">类别</string>
+    <string name="LISTITEM_SETTING_FILTER_CLONES_SUMMARY">启用在ROM管理器中隐重复游戏</string>
+    <string name="LISTITEM_SETTING_FILTER_CLONES_TITLE">隐藏重复游戏</string>
+    <string name="LISTITEM_SETTING_FILTER_DRVSRC_TITLE">驱动来源</string>
+    <string name="LISTITEM_SETTING_FILTER_FAVORITES_SUMMARY">启用在ROM管理器中仅显示收藏的游戏 </string>
+    <string name="LISTITEM_SETTING_FILTER_FAVORITES_TITLE">仅显示我的最爱</string>
+    <string name="LISTITEM_SETTING_FILTER_KEYWORD_TITLE">关键字</string>
+    <string name="LISTITEM_SETTING_FILTER_MANUF_TITLE">制造商</string>
+    <string name="LISTITEM_SETTING_FILTER_NOTWORKING_SUMMARY">启用在ROM管理器中隐藏不工作的游戏</string>
+    <string name="LISTITEM_SETTING_FILTER_NOTWORKING_TITLE">隐藏无效的游戏</string>
+    <string name="LISTITEM_SETTING_FILTER_SUMMARY">选择打开游戏过滤器选项</string>
+    <string name="LISTITEM_SETTING_FILTER_TITLE">游戏滤波器</string>
+    <string name="LISTITEM_SETTING_FILTER_YGTE_TITLE">年份>=</string>
+    <string name="LISTITEM_SETTING_FILTER_YLTE_TITLE">年份 &lt;=</string>
+    <string name="LISTITEM_SETTING_FLICKER_SUMMARY">模拟向量闪烁效果</string>
+    <string name="LISTITEM_SETTING_FLICKER_TITLE">闪烁</string>
+    <string name="LISTITEM_SETTING_FORCE_GLES10_SUMMARY">强制OpenGL ES 1.0渲染路径</string>
+    <string name="LISTITEM_SETTING_FORCE_GLES10_TITLE">强制OpenGL ES 1.0</string>
+    <string name="LISTITEM_SETTING_FORCE_PXASPECT_2_TITLE">外观</string>
+    <string name="LISTITEM_SETTING_FRAMESKIP_TITLE">跳帧</string>
+    <string name="LISTITEM_SETTING_GENERAL_SUMMARY">选择将打开通用选项</string>
+    <string name="LISTITEM_SETTING_GENERAL_TITLE">常规</string>
+    <string name="LISTITEM_SETTING_HIDE_STICK_SUMMARY">启用全屏时隐藏摇杆或箭头键</string>
+    <string name="LISTITEM_SETTING_HIDE_STICK_TITLE">隐藏摇杆</string>
+    <string name="LISTITEM_SETTING_IDLE_WAIT_SUMMARY">尝试在某些设备上节省电池开销</string>
+    <string name="LISTITEM_SETTING_IDLE_WAIT_TITLE">节省电池</string>
+    <string name="LISTITEM_SETTING_INPUT_EXTERNAL_2_TITLE">外部控制器</string>
+    <string name="LISTITEM_SETTING_INPUTSETTINGS_SUMMARY">选择将打开输入选项</string>
+    <string name="LISTITEM_SETTING_INPUTSETTINGS_TITLE">输入</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_SUMMARY">选择打开位图过滤，这会降低性能</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_TITLE">平滑缩放</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_OVERLAY_TITLE">效果迭加</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_SCALING_MODE_3_TITLE">缩放模式</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_SUMMARY">当有使用游戏手柄时隐藏触摸控制器功能将失效</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_TITLE">触摸控制器可见</string>
+    <string name="LISTITEM_SETTING_LANSDSCAPE_TITLE">横向显示设置</string>
+    <string name="LISTITEM_SETTING_LIGHTGUN_SUMMARY">启用轻触触摸屏代替光线枪。食指是主射击，中指当食指按下时辅助射击。触摸控制器必须启用。</string>
+    <string name="LISTITEM_SETTING_LIGHTGUN_TITLE">触摸光线枪</string>
+    <string name="LISTITEM_SETTING_NUMBUTTONS_2_TITLE">按键数量(全屏)</string>
+    <string name="LISTITEM_SETTING_OVERLAY_INTENSITY_TITLE">效果迭加强度</string>
+    <string name="LISTITEM_SETTING_PORTRAIT_TITLE">纵向显示设置</string>
+    <string name="LISTITEM_SETTING_PREFSCR_EMU_SUMMARY">选择打开仿真器选项</string>
+    <string name="LISTITEM_SETTING_PREFSCR_EMU_TITLE">仿真器</string>
+    <string name="LISTITEM_SETTING_PXASP1_SUMMARY">允许单个输入设备一次控制多个玩家。在某些ROMs中可能会出现问题</string>
+    <string name="LISTITEM_SETTING_PXASP1_TITLE">P4,P3,P2玩家托管给P1玩家</string>
+    <string name="LISTITEM_SETTING_RESTOREFILTERS_SUMMARY">恢复所有的过滤器到默认值</string>
+    <string name="LISTITEM_SETTING_RESTOREFILTERS_TITLE">重置过滤器为默认</string>
+    <string name="LISTITEM_SETTING_SHOW_FPS_SUMMARY">启用帧数/每秒(FPS)显示</string>
+    <string name="LISTITEM_SETTING_SHOW_FPS_TITLE">显示FPS</string>
+    <string name="LISTITEM_SETTING_SHOW_INFOWARNINGS_SUMMARY">当游戏被选择启动时显示游戏信息和警告</string>
+    <string name="LISTITEM_SETTING_SHOW_INFOWARNINGS_TITLE">显示信息/警告</string>
+    <string name="LISTITEM_SETTING_SOUND_ENGINE_TITLE">声音引擎</string>
+    <string name="LISTITEM_SETTING_SOUND_SYNC_SUMMARY">启用音讯同步(适用于节流禁用替代同步)</string>
+    <string name="LISTITEM_SETTING_SOUND_SYNC_TITLE">音讯同步</string>
+    <string name="LISTITEM_SETTING_SOUND_TITLE">声音</string>
+    <string name="LISTITEM_SETTING_SPEED_TITLE">仿真器速度</string>
+    <string name="LISTITEM_SETTING_STICK_SIZE_TITLE">摇杆和箭头键大小(全屏)</string>
+    <string name="LISTITEM_SETTING_STICK_TYPE_2_TITLE">操作类型</string>
+    <string name="LISTITEM_SETTING_THREADED_VIDEO_SUMMARY">提高双核设备的性能。如果影响性能导致画面失真或撕裂，在高分辨率仿真器中禁用。</string>
+    <string name="LISTITEM_SETTING_THREADED_VIDEO_TITLE">线程渲染视频</string>
+    <string name="LISTITEM_SETTING_THROTTLE_SUMMARY">启用速度调节。如果禁用自动跳帧也将被禁用</string>
+    <string name="LISTITEM_SETTING_THROTTLE_TITLE">调节</string>
+    <string name="LISTITEM_SETTING_TILT_ANALOG_SUMMARY">启用倾斜传感器的模拟装置，禁止使用数字方式</string>
+    <string name="LISTITEM_SETTING_TILT_ANALOG_TITLE">倾斜的模拟</string>
+    <string name="LISTITEM_SETTING_TILT_DZ_TITLE">倾斜传感器盲区</string>
+    <string name="LISTITEM_SETTING_TILT_NEUTRAL_TITLE">倾斜传感器中性垂直位置</string>
+    <string name="LISTITEM_SETTING_TILT_SENSITIVITY_SUMMARY">设置倾斜传感器灵敏度</string>
+    <string name="LISTITEM_SETTING_TILT_SENSITIVITY_TITLE">倾斜传感器的灵敏度</string>
+    <string name="LISTITEM_SETTING_TILT_SENSOR_SUMMARY">启用倾斜传感器</string>
+    <string name="LISTITEM_SETTING_TILT_SENSOR_TITLE">倾斜传感器</string>
+    <string name="LISTITEM_SETTING_TILT_SWAP_YZ_SUMMARY">启用Z,Y轴交换。修复某些像NVidia Shield设备上的垂直倾斜。</string>
+    <string name="LISTITEM_SETTING_TILT_SWAP_YZ_TITLE">Z,Y轴交换</string>
+    <string name="LISTITEM_SETTING_TILT_TOUCH_SUMMARY">启用轻触触摸屏幕任何位置射击。食指是主射击，中指当食指按下时辅助射击。触摸控制器必须启用。</string>
+    <string name="LISTITEM_SETTING_TILT_TOUCH_TITLE">触摸任何位置</string>
+    <string name="LISTITEM_SETTING_TILTSENSOR_SUMMARY">选择打开倾斜传感器选项</string>
+    <string name="LISTITEM_SETTING_TOUCH_DZ_SUMMARY">启用触摸盲区</string>
+    <string name="LISTITEM_SETTING_TOUCH_DZ_TITLE">数字触摸盲区</string>
+    <string name="LISTITEM_SETTING_VECTOR_SUMMARY">选择开启向量游戏选项</string>
+    <string name="LISTITEM_SETTING_VECTOR_TITLE">向量</string>
+    <string name="LISTITEM_SETTING_VIBRATE_SUMMARY">启用触摸震动</string>
+    <string name="LISTITEM_SETTING_VIBRATE_TITLE">按键时振动</string>
+    <string name="LISTITEM_SETTING_VIDEO_RENDER_MODE_2_TITLE">视频引擎</string>
+    <string name="LISTITEM_SETTING_VIDEO_THREAD_PRIORITY_TITLE">视频线程优先级</string>
+    <string name="LISTITEM_SETTING_VSYNC_TITLE">强制刷新频率(Hz)</string>
+    <string name="LISTITEM_SETTING_WARN_ON_EXIT_SUMMARY">启用在游戏中外部控制器(游戏手柄)按退出按钮时发出警告</string>
+    <string name="LISTITEM_SETTING_WARN_ON_EXIT_TITLE">应用程序无响应退出</string>
+    <string name="MSG_COMMON_ALERT_EXIT">是否确定退出?</string>
+    <string name="MSG_COMMON_ALERT_TITLE">提示</string>
+    <string name="MSG_COMMON_FAILED_TO_CREATE_FILE">创建档失败</string>
+    <string name="MSG_COMMON_NOT_ENOUGH_STORAGE_SPACE">存储空间不足</string>
+    <string name="MSG_COMPOSEKEY_RESELECT">按键已被占用，请重新选择组合键</string>
+    <string name="MSG_COMPOSEKEY_SELECT">请依次点击需要组合的按键</string>
+    <string name="MSG_GAMELIST_BLANK_SUMMARY">请使用数据线将ROMs传输到设备中，并下拉刷新游戏列表</string>
+    <string name="MSG_GAMELIST_TITLE">游戏列表</string>
+    <string name="MSG_KEY_COMPOSE_MACRO_USED">当前按键已经是快捷键，不能被重复添加！</string>
+    <string name="MSG_KEYMACRO_CHOOSE">请绑定快捷键...</string>
+    <string name="MSG_KEYMACRO_DEF_EMPTY_SUMMARY">触动摇杆或箭头键并点击按键添加按键宏</string>
+    <string name="MSG_KEYMACRO_LIMIT">按键个数不能超过60个.</string>
+    <string name="MSG_REFRESH_COUNT">更新了%1$d个游戏，共有%2$d个游戏</string>
+    <string name="MSG_REFRESH_FINISH">更新完成</string>
+    <string name="MSG_REFRESH_LOADING">载入中...</string>
+    <string name="MSG_REFRESH_RELEASE">松开即可刷新…</string>
+    <string name="MSG_RELOAD_ARCHIVE_REPLACE">是否确定替换存档？</string>
+    <string name="MSG_RELOAD_ARCHIVE_SAVE">新建存档</string>
+    <string name="MSG_RELOAD_NO_ARCHIVE_LOADED">没有可以加载的存盘</string>
+    <string name="MSG_OWN_ROOM">我的房间 -- </string>
+    <string name="MSG_ROOM">房间</string>
+    <string name="TAB_GAMEROOMS_CURRENT">当前游戏房间</string>
+    <string name="TAB_GAMESROOMS_OTHER">其他游戏房间</string>
+    <string name="app_name">电玩中心</string>
+    <string name="menu_vkey_X">Button-X</string>
+    <string name="menu_vkey_Y">Button-Y</string>
+    <string name="menu_vkey_A">Button-A</string>
+    <string name="menu_vkey_B">Button-B</string>
+    <string name="menu_vkey_MENU">菜单</string>
+    <string name="menu_vkey_SELECT">选择</string>
+    <string name="menu_vkeys">虚拟键</string>
+    <string name="menu_options">选项</string>
+    <string name="menu_quit_game">退出游戏</string>
+    <string name="menu_quit">退出应用</string>
+    <!-- GameListActivity -->
+    <string name="gamelist_network_title">提示</string>
+    <string name="gamelist_network_msg">当前网络不可用，请检查网络状态。</string>
+    <string name="gamelist_push_yes">是</string>
+    <string name="gamelist_push_no">否</string>
+    <!-- main left -->
+    <string name="menu_title_setting">菜单</string>
+    <string name="menu_onfile_select">选择游戏</string>
+    <!-- UserPreferences -->
+    <string name="user_current_value">当前值为 :</string>
+    <string name="user_current_all">全部</string>
+    <string name="user_message">你确定吗? </string>
+    <string name="user_yes">是</string>
+    <string name="user_no">否</string>
+    <string name="user_restore_message">你确定要恢复吗?</string>
+    <string name="user_definekeys_message">手柄启用自动检测!</string>
+    <string name="user_definekey_play">你需要禁用</string>
+    <string name="user_definekey_play_end">角色自动改变键</string>
+    <!-- OnFileView -->
+    <string name="onfile_title">选择游戏</string>
+    <string name="onfile_btn_save_ok">保存成功</string>
+    <!-- Emulator -->
+    <string name="emulator_dialog_pause_title">联机对战</string>
+    <string name="emulator_dialog_pause_msg">游戏暂停中...</string>
+    <!-- GameWifiSkt -->
+    <string name="network_request_join">正在请求加入游戏...</string>
+    <string name="network_waiting_join">正在等待游戏加入...</string>
+    <string name="network_request_allow">请求加入游戏，您是否允许?</string>
+    <string name="network_btn_creategame">创建游戏</string>
+    <string name="network_dialog_single">单机游戏</string>
+    <string name="network_dialog_warning">提示</string>
+    <string name="network_dialog_refuse">拒绝加入</string>
+    <string name="network_dialog_missrom_title">提示</string>
+    <string name="network_dialog_missrom_msg">游戏包不存在,是否索要游戏包?</string>
+    <string name="network_dialog_missrom_waiting">正在等待...</string>
+    <string name="network_dialog_sharerom_title">提示</string>
+    <string name="network_dialog_sharerom_msg">是否要共享游戏包?</string>
+    <string name="network_dialog_sharerom_transfering">传输文件...</string>
+    <string name="network_progress_loading">载入文件...</string>
+    <string name="network_dialog_refuterom_title">提示</string>
+    <string name="network_dialog_refuterom_msg">拒绝共享游戏包</string>
+    <string name="network_category_current">玩家信息</string>
+    <!-- DialogHelper -->
+    <string name="help_yes">是</string>
+    <string name="help_no">否</string>
+    <string name="help_save_message">你想要保存更改吗?</string>
+    <string name="help_rom_path_message">你想使用默认安装(rom)路径吗?(推荐)</string>
+    <string name="help_exit">您确定要退出吗?</string>
+    <string name="help_writing_error">错误</string>
+    <string name="help_info">信息</string>
+    <string name="help_exit_game">您确定要退出游戏吗?</string>
+    <string name="help_thanks">我释放一些免费,符合条件许可的街机模拟器，供非商业使用，谢谢你对我的支持。</string>
+    <string name="help_restart_title">重新开始</string>
+    <string name="help_restart_message">游戏需要重新进入以使更改生效。</string>
+    <string name="help_dismiss">关闭</string>
+    <string name="help_hangup_messgae">对方已经离开游戏，\n 请继续单机游戏...</string>
+    <!-- MainHelper  待补充 -->
+    <string name="m_help_setting_hint">只允许在全屏模式下定制控制面板.</string>
+    <!-- SensitivityPrefScreen -->
+    <string name="prsfs_save">保存</string>
+    <!-- LoadSaveGame -->
+    <string name="ARCHIVE_DIALOG_TIP">提醒</string>
+    <string name="UNARCHIVE_DIALOG_MSG">确定要删除选中文件吗?</string>
+    <!-- about -->
+    <string name="ABOUT_VERSION">版本号：1.0.0</string>
+    <string name="ABOUT_VERSION_DEFAULT">版本号：</string>
+    <!-- download -->
+    <string name="download_title">推荐</string>
+    <!-- Emulator -->
+    <string name="toast_no_games">不存在此游戏</string>
+    <string name="toast_no_roms">未找到此游戏rom。</string>
+    <!-- GameLogoActivity -->
+    <string name="LOGO_NO_SD_MSG">未找到SD卡。</string>
+    <string name="LOGO_TIP">提示</string>
+    <!-- mainfest -->
+    <string name="fest_label_setting">街机设置</string>
+    <string name="fest_label_define_keys">MAME4droid Reloaded Define Keys</string>
+    <string name="fest_label_player_keys">MAME4droid Reloaded Player Keys</string>
+    <string name="fest_label_select_keys">选择键</string>
+    <string name="fest_label_reload_rec">推荐</string>
+    <!-- GameKit -->
+    <string name="gamekit_connetted_fail">连接设备失败</string>
+    <string name="gamekit_dis_connectted">连接断开</string>
+    <string name="gamekit_saving">正在保存...</string>
+    <string name="gamekit_dialog_title">提示</string>
+    <string name="gamekit_dialog_client_msg">是否索要游戏包?</string>
+    <string name="gamekit_dialog_yes">是</string>
+    <string name="gamekit_dialog_ask_gamepack">正在索要游戏包...</string>
+    <string name="gamekit_dialog_no">否</string>
+    <string name="gamekit_dialog_server_msg">是否共享游戏包?</string>
+    <string name="gamekit_transfer_file">文件传输中...</string>
+    <string name="gamekit_dialog_refuse_msg">拒绝共享游戏包</string>
+    <string name="gamekit_toast_bt_notuse">设备蓝牙不可用</string>
+    <string name="gamekit_dialog_search_title">正在查找设备</string>
+    <string name="gamekit_btn_creategames">建立游戏</string>
+    <string name="gamekit_dialog_wait">等待连接</string>
+    <string name="gamekit_dialog_connecting">正在连接到</string>
+    <string name="gamekit_toast_bt_not_found">蓝牙设备不被发现</string>
+    <string name="gamekit_category_current">玩家信息</string>
+    <string name="gamekit_category_other">其他游戏</string>
+    <string name="gamekit_progress_request_join">请求加入游戏...</string>
+    <string name="gamekit_join_title">提示</string>
+    <string name="gamekit_join_msg">请求加入游戏,是否允许?</string>
+    <string name="gamekit_join_cancel">拒绝</string>
+    <string name="gamekit_join_refute_title">提示</string>
+    <string name="gamekit_join_refute_msg">对方拒绝加入游戏.</string>
+    <string name="no_enough_space">剩余空间不足，请清理后，在获取游戏包。</string>
+    <string name="download_no_enough_space">剩余空间不足，请清理后，再下载游戏包.</string>
+    <!-- Combination -->
+    <string name="composekey_toast_many">最多可设置3个组合键！</string>
+    <!-- PullRefreshView -->
+    <string name="PULL_REFRESHING">正在刷新...</string>
+    <string name="PULL_DOWN_REFRESH">下拉可准备执行刷新</string>
+    <string name="PULL_UPDATE_MSG">更新于：</string>
+    <string name="PULL_UPDATE_DEFAULT_MSG">更新于：刚刚</string>
+    <!-- listActivity dialog -->
+    <string name="scan_loading">扫描游戏Rom...</string>
+    <!-- userpreferemces   Setting  xml -->
+    <string name="user_setting_title">配置</string>
+    <string name="user_gf_keyword_title">过滤关键字</string>
+    <!-- list -->
+    <string name="PREF_GLOBAL_SUSPEND_NOTIFICATION_SUMMARY">游戏在通知栏的显示图标</string>
+    <string name="PREF_GLOBAL_SUSPEND_NOTIFICATION_TITLE">通知图标</string>
+    <string name="PREF_MAIN_THREAD_PRIORITY_TITLE">主线程优先级</string>
+    <string name="PREF_GAMEPAD_DZ_TITLE">模拟手柄盲区</string>
+    <!-- 删除对话框 -->
+    <string name="gamelist_alert_delete_msg">确定要删除本地游戏包吗?</string>
+
+</resources>

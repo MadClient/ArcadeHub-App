@@ -1,0 +1,29 @@
+﻿Centro Arcade
+
+1 jogo adicional
+
+  Os jogadores podem ser colocados no cartão de jogo rom sd ( centros de jogo de corrida telefone deve inserir o cartão sd ) , jogos de arcade rom detecta a posição do centro para facilitar os jogadores directamente carregadas .
+         
+2 função de fraude :
+
+Centro batota batota jogo Arcade oferece a função aberta. Comece Método: Na interface do jogo em execução, exalou o menu Opções, selecione fraude em fraude fraude fraude fraude abrir uma opção de interface específica.
+         
+(3) uma combinação de características principais:
+
+Uma tecla de função combinações podem ser convertidos em um separado funções dos botões pressionando simultaneamente múltiplas efeito botões. Método de ativação: Na interface do jogo em execução, exalou o menu Opções , selecione a combinação de teclas para abrir a chave do painel de configurações de combinação, o botão Layout combinação de teclas para deslizar para cima e para baixo do lado esquerdo , a fim de confirmar o efeito de um único botão com as necessidades fundamentais a serem convertidos , o lado direito do layout pode ser de múltipla escolha combinação de teclas . Os jogadores podem definir várias chaves de combinação chave.
+
+4 . Macro vermelho chave pode:
+         
+Você pode gravar uma macro -chave função jogadores através de uma sequência específica de teclas e um botão separado para usar várias vezes. Método de ativação: No jogo de interface de execução, exalou o menu Opções, selecione o botão de macro , abra o layout dos botões Configurações de Macro , macros de layout botão pode deslizar para cima e para baixo com o botão esquerdo , a fim de confirmar o efeito de um único botão com as necessidades fundamentais a serem convertidos , a parte lateral direita do layout é a combinação de teclas para gravar , os jogadores podem operar abaixo dos joysticks e botões , a fim de gravar, enquanto os erros de gravação pode ser revogada pelo botão inferior direito de ordenar uma única ação do botão de revogação. Os jogadores podem gravar um botão de macro chaves, as chaves e combinações de teclas não podem ser ativados simultaneamente .
+         
+5 jogo salva função ler:
+
+Centros de jogo Arcade pode ser o arquivo instante atual e ler. Método de ativação: Na interface do jogo em execução, exalou o menu Opções , selecione o arquivo ( ler arquivos ), a interface do arquivo , clique no já existente save game serão arquivados cobertura , clique sobre a opção de criar um novo arquivo irá salvar um novo arquivo do jogo. Ao ler as opções de interface de arquivo que você pode selecionar o arquivo do jogo para ler arquivos já armazenados .
+        
+6 jogos Bluetooth:
+
+Os jogadores são convidados a ligar o Bluetooth, a escolha é para entrar no modo de espera, como encontrado por outros jogadores, clique sobre os outros jogadores para o modo conectado , a conexão é bem sucedida para iniciar o jogo (Nota: Se a pessoa não existe pacote do jogo , entre no modo de transferência de arquivos , transferência de arquivos é feito diretamente começar o jogo ) .
+        
+7 Jogo em Rede:
+
+Selecione Sim para entrar no modo de espera, como encontrado por outros jogadores, clique sobre os outros jogadores para o modo conectado , a conexão é bem sucedida para iniciar o jogo (Nota: Se a pessoa não existe pacote do jogo , entre no modo de transferência de arquivos , transferência de arquivos é feito diretamente iniciar o jogo).

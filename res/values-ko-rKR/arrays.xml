@@ -1,0 +1,501 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_overlay_intensity_options">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_overlay_intensity_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_scaleMode_options">
+        <item> ( 가로 세로 비율을 유지하기 위해 ) 확장 </item>
+        <item>  전체 화면으로 스트레칭</item>
+        <item> 원래 크기 </item>
+        <item>1.5 배 크기</item>
+        <item>2 배 크기</item>
+        <item> 2.5 배 크기</item>
+        <item> 3 배 크기</item>
+        <item> 3.5 배 크기</item>
+        <item></item>
+        <item> 4 배 크기</item>
+        <item> 4.5 배 크기</item>
+        <item> 5 배 크기</item>
+    </string-array>
+    <string-array name="pref_scaleMode_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+    </string-array>
+    <string-array name="pref_global_video_render_options">
+        <item> SW ( 호환성 ) </item>
+        <item> GL (고속 ) </item>
+    </string-array>
+    <string-array name="pref_global_video_render_values">
+        <item> 1 </item>
+        <item> 2 </item>
+    </string-array>
+    <string-array name="pref_controller_type_options">
+        <item> 디지털 ( DPAD ) </item>
+        <item> 디지털 스티커 </item>
+        <item> 시뮬레이션 ( 성능 ) </item>
+        <item> 아날로그 ( 부드럽게 ) </item>
+    </string-array>
+    <string-array name="pref_controller_type_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+    <string-array name="pref_input_external_options">
+        <item> 키보드 입력 </item>
+        <item> 자동 처리 </item>
+        <item> 기본 </item>
+        <item> ICP , Gametel 또는 iCade 호환 </item>
+    </string-array>
+    <string-array name="pref_input_external_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+    <string-array name="pref_dz_options">
+        <item> 없음 </item>
+        <item> 낮은 </item>
+        <item> 에서 </item>
+        <item> 높은 </item>
+        <item> 매우 높은 </item>
+    </string-array>
+    <string-array name="pref_dz_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_frameskip_options">
+        <item> 자동 </item>
+        <item> 없음 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_frameskip_values">
+        <item> -1 </item>
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_sound_options">
+        <item>떨어져서</item>
+        <item>에 (11 kHz에서)</item>
+        <item>에 (22 kHz에서)</item>
+        <item>에 (33 kHz에서)</item>
+        <item>에 (44 kHz에서)</item>
+        <item>에 (48 kHz에서)</item>
+    </string-array>
+    <string-array name="pref_sound_values">
+        <item>-1</item>
+        <item>11025</item>
+        <item>22050</item>
+        <item>32000</item>
+        <item>44100</item>
+        <item>48000</item>
+    </string-array>
+    <string-array name="pref_stick_options">
+        <item>자동</item>
+        <item>2-웨이</item>
+        <item>4-웨이</item>
+        <item>8-웨이</item>
+    </string-array>
+    <string-array name="pref_stick_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="pref_numbuttons_options">
+        <item>자동</item>
+        <item>0 버튼</item>
+        <item>1 버튼</item>
+        <item>2 버튼</item>
+        <item>3 버튼 (A=B+X)</item>
+        <item>3 버튼</item>
+        <item>4 버튼</item>
+        <item>모든 버튼</item>
+    </string-array>
+    <string-array name="pref_numbuttons_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>33</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_resolution_options">
+        <item>자동 (권장)</item>
+        <item>320x200</item>
+        <item>320x240</item>
+        <item>400x300</item>
+        <item>480x300</item>
+        <item>512x384</item>
+        <item>640x400</item>
+        <item>640x480</item>
+        <item>800x600</item>
+        <item>1024x768</item>
+    </string-array>
+    <string-array name="pref_resolution_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_buttons_size_options">
+        <item> 작은 </item>
+        <item> 작은 </item>
+        <item> 정상 </item>
+        <item> 큰  </item>
+        <item> 큰 </item>
+    </string-array>
+    <string-array name="pref_buttons_size_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_low_norm_or_hight_options">
+        <item> 낮은 </item>
+        <item> 정상 </item>
+        <item> 높은 </item>
+    </string-array>
+    <string-array name="pref_low_norm_or_hight_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+    </string-array>
+    <string-array name="pref_sound_engine_options">
+        <item> 소리</item>
+        <item> 대기 시간 ( 보안 ) </item>
+        <item> OpenSL </item>
+        <item> OpenSL 매우 낮은 대기 시간 ( 최고) </item>
+    </string-array>
+    <string-array name="pref_sound_engine_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+    <string-array name="pref_speed_options">
+        <item> 기본 </item>
+        <item> 50 % . </item>
+        <item> 60 % . </item>
+        <item> 70 % . </item>
+        <item> 80 % . </item>
+        <item> 85 % . </item>
+        <item> 90 % . </item>
+        <item> 95 % . </item>
+        <item> 100 % . </item>
+        <item> 105 % . </item>
+        <item> 110 % . </item>
+        <item> 115 % . </item>
+        <item> 120 % . </item>
+        <item> 130 % . </item>
+        <item> 140 % . </item>
+        <item> 150 % . </item>
+    </string-array>
+    <string-array name="pref_speed_values">
+        <item> -1 </item>
+        <item> 50 </item>
+        <item> 60 </item>
+        <item> 70 </item>
+        <item> 80 </item>
+        <item> 85 </item>
+        <item> 90 </item>
+        <item> 95 </item>
+        <item> 100 </item>
+        <item> 105 </item>
+        <item> (110) </item>
+        <item> 115 </item>
+        <item> 120 </item>
+        <item> (130) </item>
+        <item> 140 </item>
+        <item> 150 </item>
+    </string-array>
+    <string-array name="pref_autofire_options">
+        <item> 장애인 </item>
+        <item> 속도 1 </item>
+        <item> 속도 2 </item>
+        <item> 속도 3 </item>
+        <item> 속도 4 </item>
+        <item> 속도 5 </item>
+        <item> 속도 6 </item>
+        <item> 속도 7 </item>
+        <item> 속도 8 </item>
+        <item> 속도 9 </item>
+    </string-array>
+    <string-array name="pref_autofire_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+    </string-array>
+    <string-array name="pref_vsync_options">
+        <item> 보안 (게임 이야기 ) </item>
+        <item> 주파수 50Hz </item>
+        <item> 주파수 60HZ </item>
+        <item> 시스템 - 보고서 </item>
+    </string-array>
+    <string-array name="pref_vsync_values">
+        <item> -1 </item>
+        <item> 5000 </item>
+        <item> 6000 </item>
+        <item> 3 </item>
+    </string-array>
+    <string-array name="pref_automap_options">
+        <item> 함 </item>
+        <item>옵션을 선택하고 종료 으로 클릭</item>
+        <item>동전 을 클릭 시작 </item>
+        <item> L1, 옵션을 선택하고 종료 으로 R1</item>
+        <item> L1, 동전 등의 R1 과 시작</item>
+    </string-array>
+    <string-array name="pref_automap_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_tilt_neutralz_options">
+        <item> 90도 </item>
+        <item> 80도 </item>
+        <item> 70도 </item>
+        <item> 60도 </item>
+        <item> 50도 </item>
+        <item> 45도 </item>
+        <item> 40도 </item>
+        <item> 30도 </item>
+        <item> 20도 </item>
+        <item> 10도 </item>
+    </string-array>
+    <string-array name="pref_tilt_neutralz_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+    </string-array>
+    <string-array name="pref_px_options">
+        <item> MAME ( 원래 아케이드 4 / 3 ) </item>
+        <item> 픽셀  의 조건을 강제</item>
+        <item> 픽셀 (스마트 )  의 관점</item>
+    </string-array>
+    <string-array name="pref_px_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+    </string-array>
+    <string-array name="dialoghelper_option_list">
+        <item> 아카이브 </item>
+        <item> 파일을 읽고 </item>
+        <!-- 일시 정지 <ITEM> / < 시작 / 항목 > -->
+        <item>골드 핑거  </item>
+        <item> 키 조합 </item>
+        <item> 키 매크로 </item>
+        <item> 설정 </item>
+    </string-array>
+    <!--
+<string-array name="dialoghelper_option_list">
+골드 핑거 <item> </item>
+일시 정지 <ITEM> 시작 / </item>
+<item> 게임을 저장 </item>
+<item> 로드 게임 </item>
+<item> 아카이브 </item>
+<item> 목록 </item>
+<item> 설정 </item>
+<item> 도움 </item>
+<item> 소개 </item>
+<item> 키 매크로 </item>
+<item> 키 조합 </item>
+
+<item> 다른 게임 </item>
+<item> WIFI GAMES </item>
+<item> 새로운 게임 </item>
+<item> BT 서버 </item>
+<item> BT 의 CLIENT </item>
+
+<item> WIFI 서버 </item>
+<item> WIFI 클라이언트 </item>
+<item> WIFI 주소 </item>
+</string-array>
+    -->
+    <string-array name="dialoghelper_option_list_imgname">
+        <item> ic_save_white.PNG </item>
+        <item> ic_load_white.PNG </item>
+        <!-- <item> Ic_multikey_white.PNG </item> -->
+        <item> ic_cheat_white.PNG </item>
+        <item> ic_multipress_white.PNG </item>
+        <item> ic_multikey_white.PNG </item>
+        <item> ic_setting_white.PNG </item>
+    </string-array>
+    <string-array name="dialoghelper_option_img">
+
+        <!-- 흰색 -->
+        <item name="option_save_img"> @drawable/ic_save_white </item>
+        <item name="option_load_img"> @drawable/ic_load_white </item>
+        <!-- <item Name="option_suspend_img"> @drawable/ic_multikey_white </item> -->
+        <item name="option_cheat_img"> @drawable/ic_cheat_white </item>
+        <item name="option_multipress_img"> @drawable/ic_multipress_white </item>
+        <item name="option_multikey_img"> @drawable/ic_multikey_white </item>
+        <item name="option_setting_img"> @drawable/ic_setting_white </item>
+    </string-array>
+
+    <array name="dialoghelper_option_id">
+        <item> @id/option_save </item>
+        <item> @id/option_load </item>
+        <!-- <item> @id/option_suspend </item> -->
+        <item> @id/option_cheat </item>
+        <item> @id/option_multipress </item>
+        <item> @id/option_multikey </item>
+        <item> @id/option_setting </item>
+    </array>
+
+    <string-array name="sliding_title">
+
+        <!-- <item Name="sliding_search_title"> 새로 고침 </item> -->
+        <!-- </ 항목 Name="sliding_hiscore_title"> 목록을 <ITEM > -->
+        <!-- <item Name="sliding_recommend_title"> 추천 </item> -->
+        <!-- <item Name="sliding_help_title"> 도움 </item> -->
+        <item name="sliding_save_title"> 파일을 읽어  </item>
+        <item name="sliding_setting_title">설정  </item>
+        <item name="sliding_about_title">  소개</item>
+        <item name="sliding_exit_title"> 종료  </item>
+    </string-array>
+
+    <array name="sliding_img">
+        <item name="sliding_save_img"> @drawable/ic_sliding_archive </item>
+        <item name="sliding_setting_img"> @drawable/ic_sliding_setting </item>
+        <item name="sliding_about_img"> @drawable/ic_sliding_about </item>
+        <item name="sliding_exit_img"> @drawable/ic_sliding_exit </item>
+    </array>
+    <array name="sliding_id">
+        <item> @id/sliding_save </item>
+        <item> @id/sliding_setting </item>
+        <item> @id/sliding_about </item>
+        <item> @id/sliding_exit </item>
+    </array>
+
+    <string-array name="dl_url_name">
+        <item> 1 ~ ba MAME </item>
+        <item> ba ca ~ MAME </item>
+        <item> ca ~ ct MAME </item>
+        <item> ct ~ ds MAME </item>
+        <item> ds ~ ga MAME </item>
+        <item> ga ~ ha MAME </item>
+        <item> ha ~ ka MAME </item>
+        <item> ka ~ ma MAME </item>
+        <item> ma ~ mq MAME </item>
+        <item> mr ~ oz MAME </item>
+        <item> p4 ~ pp MAME </item>
+        <item> pr ~ ro MAME </item>
+        <item> ro ~ sh MAME </item>
+        <item> sh ~ ss MAME </item>
+        <item> ss ~ º MAME </item>
+        <item> ti ~ vh MAME </item>
+        <item> vi ~ zz MAME </item>
+    </string-array>
+    <string-array name="dl_url_item">
+        <item> 66528 </item>
+        <item> 66008 </item>
+        <item> 65489 </item>
+        <item> 64966 </item>
+        <item> 64447 </item>
+        <item> 63929 </item>
+        <item> 63408 </item>
+        <item> 62886 </item>
+        <item> 62886 </item>
+        <item> 62371 </item>
+        <item> 61858 </item>
+        <item> 61344 </item>
+        <item> 60818 </item>
+        <item> 60298 </item>
+        <item> 59770 </item>
+        <item> 59243 </item>
+        <item> 58739 </item>
+        <item> 58246 </item>
+    </string-array>
+    <!-- share -->
+    <string-array name="share_img">
+        <item name="share_sina_img">@drawable/ic_sina</item>
+        <item name="share_wechat_img">@drawable/ic_wechat</item>
+        <item name="share_facebook_img">@drawable/ic_facebook</item>
+        <item name="share_twitter_img">@drawable/ic_twitter</item>
+    </string-array>
+
+    <array name="share_id">
+        <item>@id/share_sina_id</item>
+        <item>@id/share_wechat_id</item>
+        <item>@id/share_facebook_id</item>
+        <item>@id/share_twitter_id</item>
+    </array>
+
+</resources>

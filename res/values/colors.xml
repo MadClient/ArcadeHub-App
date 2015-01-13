@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="loading_color">#000000</color>
+    <color name="black">#ff000000</color>
+    <color name="grey">#ffeeeeee</color>
+    <color name="red">#ffff0000</color>
+    <color name="sliding_menu_bg">#353535</color>
+    <color name="sliding_tv_color">#ffffff</color>
+    <!-- <color name="sliding_tv_bg">#ffffff</color> -->
+    <color name="sliding_title_bg">#404040</color>
+
+    <drawable name="black">#ff000000</drawable>
+    <drawable name="translucent">#c0000000</drawable>
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="emu_back_color">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#70D3D3D3</color>
+    <color name="transparent_half">#efffffff</color>
+    <color name="refresh_bg">#8e000000</color>
+    <!-- dwonload -->
+    <color name="TextColor">#666666</color>
+    <color name="TitleTextColor">#333333</color>
+    <color name="plugin_tv_wifibt_color">#ffffff</color>
+    <color name="plugin_tv_name_color">#000000</color>
+    <color name="plugin_tv_address_color">#555555</color>
+    <color name="plugin_clear_font_color">#ffffff</color>
+    <color name="plugin_clear_bg_color">#E74C3C</color>
+    
+    <!--optionView  -->
+	<color name="optionview_bg_color">#c0212a31</color>
+	
+    <!-- test start -->
+    <!-- <color name="clr_green_deep">#39A652</color> -->
+    <!-- <color name="clr_green_light">#47cb65</color> -->
+    <!-- <color name="clr_white">#ecf0f1</color> -->
+    <!-- <color name="clr_blue_deep">#293a4d</color> -->
+    <!-- <color name="clr_blue_light">#344960</color> -->
+    <!-- <color name="clr_gray_light">#3C3C3C</color> -->
+    <!-- <color name="clr_gray_deep">#2B2B2B</color> -->
+    <!-- <color name="clr_delete">#bf3542</color> -->
+
+    <color name="clr_green_deep">#39A652</color>
+    <color name="clr_green_light">#2ecc71</color> <!-- change -->
+    <color name="clr_white">#ffffff</color>		<!-- 配色3 change -->
+    <color name="clr_blue_deep">#293a4d</color>
+    <!-- <color name="clr_blue_light">#2C3E50</color> change -->
+    <color name="clr_blue_light">#333333</color> <!-- change -->
+    <color name="clr_blue_light_1">#222222</color> <!-- change -->
+    <color name="clr_gray_light">#3C3C3C</color>
+    <color name="clr_gray_deep">#2B2B2B</color>
+    <color name="clr_delete">#E74C3C</color> <!-- change -->
+    <color name="clr_text_light">#ffffff</color> <!-- change -->
+    <color name="clr_pull_bg">#e2e7ed</color>
+
+	<color name="clr_up_title">#272727</color>
+	<color name="clr_up_path">#595959</color>
+	<color name="clr_up_size">#595959</color>
+	<color name="clr_behind_title">#f1f1f1</color>
+	<color name="clr_left_title">#f1f1f1</color>
+	<color name="clr_left_line_bg">#4E4E4E</color>
+	
+	<color name="clr_refresh_line">#2ecc71</color>
+
+	<!-- test - end -->
+	<color name="plugin_behind_bg">#333333</color>
+	<color name="plugin_upper_bg">#ffffff</color>
+	<color name="plugin_download_tv_color">#23b5bc</color>
+	<color name="plugin_download_progress_value">#23b5bc</color>
+	<color name="plugin_download_progress_bg">#666666</color>
+	
+	<color name="logo_bg_color">#2ecc71</color>
+	<!-- <color name="leftview_bg_color">#e066cc99</color> -->
+	<!-- <color name="leftview_bg_color">#0aa344</color> -->
+	<!-- 碧绿 -->
+	<color name="leftview_bg_color">#1bd1a5</color> 
+	
+	<!-- <color name="leftview_bg_color">#2add9c</color> -->
+	<!-- <color name="leftview_bg_color">#0c8918</color> -->
+	
+	<color name="left_item_tv_color">#eeeeee</color>
+	
+	<color name="combination_dialog_bg">#00000000</color>
+	<color name="combination_title_color">#eeeeee</color>
+	
+	<color name="push_translucent">#c0000000</color>
+	
+	<color name="popup_line">#212a31</color>
+    
+</resources>

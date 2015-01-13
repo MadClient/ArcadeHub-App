@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- sliding left view -->
+    <item name="sliding_save" type="id"/>
+    <item name="sliding_about" type="id"/>
+    <item name="sliding_setting" type="id"/>
+    <item name="sliding_exit" type="id"/>
+    <!-- optionview -->
+    <item name="option_save" type="id"/>
+    <item name="option_load" type="id"/>
+    <item name="option_suspend" type="id"/>
+    <item name="option_cheat" type="id"/>
+    <item name="option_multipress" type="id"/>
+    <item name="option_multikey" type="id"/>
+    <item name="option_setting" type="id"/>
+    <item name="option_hiscore" type="id"/>
+    <item name="option_about" type="id"/>
+    <!-- share -->
+    <item name="share_sina_id" type="id"/>
+    <item name="share_wechat_id" type="id"/>
+    <item name="share_facebook_id" type="id"/>
+    <item name="share_twitter_id" type="id"/>
+
+</resources>

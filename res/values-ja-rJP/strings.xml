@@ -1,0 +1,295 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<resources>
+    <string name="BTN_COMMON_CANCEL">キャンセル</string>
+    <string name="BTN_COMMON_DELETE">削除</string>
+    <string name="BTN_COMMON_OK">わかりました</string>
+    <string name="BTN_OPTIONS_COMPOSEKEY">キーを構成する</string>
+    <string name="BTN_OPTIONS_GOLDFINGER">攻略</string>
+    <string name="BTN_OPTIONS_MARCO">キーの Macr</string>
+    <string name="BTN_OPTIONS_UNARCHIVE">リロード</string>
+    <string name="BTN_TEXT_GAMETYPE_BLUETOOTH">ブルートゥース</string>
+    <string name="BTN_TEXT_GAMETYPE_NETWORK">無線LAN</string>
+    <string name="BTN_TEXT_GAMETYPE_SINGLE">シングル</string>
+    <string name="LISTITEM_ABOUT_HELP">助け</string>
+    <string name="LISTITEM_ABOUT_PROTOCOL">契約</string>
+    <string name="LISTITEM_MENU_ABOUT">について</string>
+    <string name="LISTITEM_MENU_ARCHIVE">アーカイブ</string>
+    <string name="LISTITEM_MENU_EXIT">出口</string>
+    <string name="LISTITEM_MENU_SETTING">設定</string>
+    <string name="LISTITEM_SETTING_ADVANCED_SUMMARY">それは、高度なオプションを開くために選択</string>
+    <string name="LISTITEM_SETTING_ADVANCED_TITLE">高度な</string>
+    <string name="LISTITEM_SETTING_ANALOG_DZ_TITLE">アナログタッチデッドゾーン</string>
+    <string name="LISTITEM_SETTING_ANIMATED_INPUT_SUMMARY">アニメーション化されたタッチコントロール。巨大なパフォーマンスの向上のために無効にする</string>
+    <string name="LISTITEM_SETTING_ANIMATED_INPUT_TITLE">アニメの</string>
+    <string name="LISTITEM_SETTING_ANTIALIAS_SUMMARY">ベクトル ゲームのアンチ エイリアス処理されたライン レンダリングを有効にします</string>
+    <string name="LISTITEM_SETTING_ANTIALIAS_TITLE">アンチエイリアス</string>
+    <string name="LISTITEM_SETTING_AUTOFIRE_TITLE">連射などのボタンB</string>
+    <string name="LISTITEM_SETTING_AUTOMAP_OPTIONS_TITLE">ゲームパッド自動マップオプション</string>
+    <string name="LISTITEM_SETTING_BEAM2X_SUMMARY">ベクトルの幅を 2 倍に設定します</string>
+    <string name="LISTITEM_SETTING_BEAM2X_TITLE">ビーム2X</string>
+    <string name="LISTITEM_SETTING_BUTTONS_SIZE_TITLE">ボタンのサイズ（フルスクリーン）</string>
+    <string name="LISTITEM_SETTING_CONTROLLER_TYPE_2_TITLE">ソフトタッチ タイプ</string>
+    <string name="LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_SUMMARY">フルスクリーンコントロールのレイアウトをカスタマイズするために選択</string>
+    <string name="LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_TITLE">ッチレイアウトをカスタマイズ</string>
+    <string name="LISTITEM_SETTING_DEBUG_SUMMARY">開発者だけのために</string>
+    <string name="LISTITEM_SETTING_DEBUG_TITLE">デバッグモード</string>
+    <string name="LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_SUMMARY">デフォルト値にフルスクリーンコントロールレイアウトを復元</string>
+    <string name="LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_TITLE">デフォルトのタッチレイアウト</string>
+    <string name="LISTITEM_SETTING_DEFAULTSKEYS_SUMMARY">デフォルト値にキーを復元</string>
+    <string name="LISTITEM_SETTING_DEFAULTSKEYS_TITLE">デフォルトキー</string>
+    <string name="LISTITEM_SETTING_DEFINEKEYS_SUMMARY">物理キーにエミュレータスティックとボタンをマップするために選択します。 （のXperiaは、再生および物理的なキーボードのユーザーと他のデバイスは、ここで自分のボタンやキーを設定する必要があります）</string>
+    <string name="LISTITEM_SETTING_DEFINEKEYS_TITLE">キーを定義します</string>
+    <string name="LISTITEM_SETTING_DISABLE_RIGHT_STICK_SUMMARY">自動検出されたときに右スティックを無効にする</string>
+    <string name="LISTITEM_SETTING_DISABLE_RIGHT_STICK_TITLE">ゲームパッドに右スティックを無効にします</string>
+    <string name="LISTITEM_SETTING_DOUBLE_BUFFER_SUMMARY">パフォーマンスを犠牲にしてちらつきを回避します</string>
+    <string name="LISTITEM_SETTING_DOUBLE_BUFFER_TITLE">ダブルバッファ</string>
+    <string name="LISTITEM_SETTING_EMULATED_RESOLUTION">エミュレートされた決議</string>
+    <string name="LISTITEM_SETTING_FILTER_CATEGORY_TITLE">カテゴリ</string>
+    <string name="LISTITEM_SETTING_FILTER_CLONES_SUMMARY">ROM のマネージャーでクローンを非表示にする有効にします</string>
+    <string name="LISTITEM_SETTING_FILTER_CLONES_TITLE">クローンを隠す</string>
+    <string name="LISTITEM_SETTING_FILTER_DRVSRC_TITLE">ドライバのソース</string>
+    <string name="LISTITEM_SETTING_FILTER_FAVORITES_SUMMARY">ROMのマネージャーで唯一のお気に入りのゲームを表示するには、それを可能にする </string>
+    <string name="LISTITEM_SETTING_FILTER_FAVORITES_TITLE">お気に入りのみを表示する</string>
+    <string name="LISTITEM_SETTING_FILTER_KEYWORD_TITLE">キーワード</string>
+    <string name="LISTITEM_SETTING_FILTER_MANUF_TITLE">メーカー</string>
+    <string name="LISTITEM_SETTING_FILTER_NOTWORKING_SUMMARY">ROM のマネージャーでない作業ゲームを非表示にする有効にします</string>
+    <string name="LISTITEM_SETTING_FILTER_NOTWORKING_TITLE">動作していない隠す</string>
+    <string name="LISTITEM_SETTING_FILTER_SUMMARY">選択するとゲームのフィルター オプションを開く</string>
+    <string name="LISTITEM_SETTING_FILTER_TITLE">ゲーム フィルター</string>
+    <string name="LISTITEM_SETTING_FILTER_YGTE_TITLE">年 &gt;=</string>
+    <string name="LISTITEM_SETTING_FILTER_YLTE_TITLE">年 &lt;=</string>
+    <string name="LISTITEM_SETTING_FLICKER_SUMMARY">ベクトルフリッカー効果をシミュレート</string>
+    <string name="LISTITEM_SETTING_FLICKER_TITLE">フリッカー</string>
+    <string name="LISTITEM_SETTING_FORCE_GLES10_SUMMARY">力のOpenGL ES1.0は、パスをレンダリング</string>
+    <string name="LISTITEM_SETTING_FORCE_GLES10_TITLE">力のOpenGL ES1.0</string>
+    <string name="LISTITEM_SETTING_FORCE_PXASPECT_2_TITLE">アスペクト</string>
+    <string name="LISTITEM_SETTING_FRAMESKIP_TITLE">フレームスキップ</string>
+    <string name="LISTITEM_SETTING_GENERAL_SUMMARY">選択すると、全般的なオプションを開く</string>
+    <string name="LISTITEM_SETTING_GENERAL_TITLE">一般</string>
+    <string name="LISTITEM_SETTING_HIDE_STICK_SUMMARY">棒または dpad を非表示にするを有効にするときフルスクリーン</string>
+    <string name="LISTITEM_SETTING_HIDE_STICK_TITLE">スティックを隠す</string>
+    <string name="LISTITEM_SETTING_IDLE_WAIT_SUMMARY">一部のデバイスでジッタを犠牲にしてバッテリーを保存しようとするには</string>
+    <string name="LISTITEM_SETTING_IDLE_WAIT_TITLE">バッテリーを節約する</string>
+    <string name="LISTITEM_SETTING_INPUT_EXTERNAL_2_TITLE">外部コントローラ</string>
+    <string name="LISTITEM_SETTING_INPUTSETTINGS_SUMMARY">選択すると、入力オプションを開く</string>
+    <string name="LISTITEM_SETTING_INPUTSETTINGS_TITLE">入力</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_SUMMARY">パフォーマンスを犠牲にして、ビットマップ フィルタ リングを有効にするを選択します</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_TITLE">スムーズな拡張</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_OVERLAY_TITLE">オーバーレイ効果</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_SCALING_MODE_3_TITLE">スケーリングモード</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_SUMMARY">ッチ コント ローラーを非表示にする無効にします。ゲームパッドを使用している場合に便利です</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_TITLE">タッチ コント ローラー表示</string>
+    <string name="LISTITEM_SETTING_LANSDSCAPE_TITLE">風景のディスプレイの設定</string>
+    <string name="LISTITEM_SETTING_LIGHTGUN_SUMMARY">ガン型コント ローラーとしてタッチ スクリーンをタップするを有効にします。最初の指は、主要な火です。最初の指が押されたときに 2 番目の指は、代替の火災です。タッチ コント ローラーを有効にする必要があります</string>
+    <string name="LISTITEM_SETTING_LIGHTGUN_TITLE">ガン型コント ローラーをタッチします</string>
+    <string name="LISTITEM_SETTING_NUMBUTTONS_2_TITLE">ボタンの数（フルスクリーン）</string>
+    <string name="LISTITEM_SETTING_OVERLAY_INTENSITY_TITLE">エフェクトのオーバーレイの強度</string>
+    <string name="LISTITEM_SETTING_PORTRAIT_TITLE">肖像画の表示設定</string>
+    <string name="LISTITEM_SETTING_PREFSCR_EMU_SUMMARY">選択するとエミュレーション オプションを開く</string>
+    <string name="LISTITEM_SETTING_PREFSCR_EMU_TITLE">エミュレーション</string>
+    <string name="LISTITEM_SETTING_PXASP1_SUMMARY">一度に複数のプレーヤーを制御するために、単一の入力デバイスを許可します。いくつかのROMに問題を引き起こす可能性</string>
+    <string name="LISTITEM_SETTING_PXASP1_TITLE">P4、P3、P2 P1として</string>
+    <string name="LISTITEM_SETTING_RESTOREFILTERS_SUMMARY">デフォルト値にすべてのフィルタを復元する</string>
+    <string name="LISTITEM_SETTING_RESTOREFILTERS_TITLE">デフォルトに条件をリセット</string>
+    <string name="LISTITEM_SETTING_SHOW_FPS_SUMMARY">FPS のディスプレイをオンにするを有効にします</string>
+    <string name="LISTITEM_SETTING_SHOW_FPS_TITLE">FPS を表示します</string>
+    <string name="LISTITEM_SETTING_SHOW_INFOWARNINGS_SUMMARY">ゲーム情報、ゲームが選択されているすべての警告を表示します</string>
+    <string name="LISTITEM_SETTING_SHOW_INFOWARNINGS_TITLE">情報/警告を表示する</string>
+    <string name="LISTITEM_SETTING_SOUND_ENGINE_TITLE">サウンドエンジン</string>
+    <string name="LISTITEM_SETTING_SOUND_SYNC_SUMMARY">オーディオの同期 (スロットルは無効のため代替同期) を有効にします</string>
+    <string name="LISTITEM_SETTING_SOUND_SYNC_TITLE">オーディオ同期</string>
+    <string name="LISTITEM_SETTING_SOUND_TITLE">サウンド</string>
+    <string name="LISTITEM_SETTING_SPEED_TITLE">エミュレートされたスピード</string>
+    <string name="LISTITEM_SETTING_STICK_SIZE_TITLE">スティックとDPADサイズ（フルスクリーン）</string>
+    <string name="LISTITEM_SETTING_STICK_TYPE_2_TITLE">タイプスティック</string>
+    <string name="LISTITEM_SETTING_THREADED_VIDEO_SUMMARY">二重コアデバイス上でのパフォーマンス向上。高解像度の解像度をエミュレートするためにあなたがアーティファクトを持っているか、パフォーマンスを犠牲にして引き裂く場合に、それを無効にする</string>
+    <string name="LISTITEM_SETTING_THREADED_VIDEO_TITLE">スレッド·ビデオレンダリング</string>
+    <string name="LISTITEM_SETTING_THROTTLE_SUMMARY">の速度スロットリングを有効にすることを可能にします。あなたがそれをautoframeskip無効にした場合も無効になります</string>
+    <string name="LISTITEM_SETTING_THROTTLE_TITLE">スロットル</string>
+    <string name="LISTITEM_SETTING_TILT_ANALOG_SUMMARY">アナログデバイスとして傾斜センサを使用して有効に、デジタルとして使用する無効</string>
+    <string name="LISTITEM_SETTING_TILT_ANALOG_TITLE">アナログとして傾ける</string>
+    <string name="LISTITEM_SETTING_TILT_DZ_TITLE">チルト センサー デッド ゾーン</string>
+    <string name="LISTITEM_SETTING_TILT_NEUTRAL_TITLE">傾きセンサー中立垂直位置</string>
+    <string name="LISTITEM_SETTING_TILT_SENSITIVITY_SUMMARY">セット チルト センサーの感度</string>
+    <string name="LISTITEM_SETTING_TILT_SENSITIVITY_TITLE">チルト センサーの感度</string>
+    <string name="LISTITEM_SETTING_TILT_SENSOR_SUMMARY">チルト センサーの使用を有効にします</string>
+    <string name="LISTITEM_SETTING_TILT_SENSOR_TITLE">チルト センサー</string>
+    <string name="LISTITEM_SETTING_TILT_SWAP_YZ_SUMMARY">Zを交換できるようになり、Y軸。これは、NVIDIAの盾のようないくつかのデバイス上での垂直の傾きを修正します。</string>
+    <string name="LISTITEM_SETTING_TILT_SWAP_YZ_TITLE">スワップZ、Y軸</string>
+    <string name="LISTITEM_SETTING_TILT_TOUCH_SUMMARY">火に画面上の任意の場所をタップすることができます。最初の指がメインの火災です。最初の指を押すと第二指が交互に火災で</string>
+    <string name="LISTITEM_SETTING_TILT_TOUCH_TITLE">どこかに触れ</string>
+    <string name="LISTITEM_SETTING_TILTSENSOR_SUMMARY">それは傾斜センサのオプションを開くために選択し</string>
+    <string name="LISTITEM_SETTING_TOUCH_DZ_SUMMARY">タッチデッド·ゾーンを有効にする</string>
+    <string name="LISTITEM_SETTING_TOUCH_DZ_TITLE">デジタルタッチデッドゾーン</string>
+    <string name="LISTITEM_SETTING_VECTOR_SUMMARY">それはベクターゲームのオプションを開く場合に選択します</string>
+    <string name="LISTITEM_SETTING_VECTOR_TITLE">ベクトル</string>
+    <string name="LISTITEM_SETTING_VIBRATE_SUMMARY">振動さ有効にするとタッチ</string>
+    <string name="LISTITEM_SETTING_VIBRATE_TITLE">キー入力によって振動する</string>
+    <string name="LISTITEM_SETTING_VIDEO_RENDER_MODE_2_TITLE">ビデオエンジン</string>
+    <string name="LISTITEM_SETTING_VIDEO_THREAD_PRIORITY_TITLE">ビデオスレッドの優先度</string>
+    <string name="LISTITEM_SETTING_VSYNC_TITLE">強制リフレッシュレート（Hz）</string>
+    <string name="LISTITEM_SETTING_WARN_ON_EXIT_SUMMARY">あなたは外部コントローラ（ゲームパッド）で[終了]ボタンを押したときに警告するために、それを有効にすると、ゲーム</string>
+    <string name="LISTITEM_SETTING_WARN_ON_EXIT_TITLE">終了時にARN</string>
+    <string name="MSG_COMMON_ALERT_EXIT">あなたが終了してもよろしいですか？</string>
+    <string name="MSG_COMMON_ALERT_TITLE">リマインド</string>
+    <string name="MSG_COMMON_FAILED_TO_CREATE_FILE">ファイルの作成に失敗しました</string>
+    <string name="MSG_COMMON_NOT_ENOUGH_STORAGE_SPACE">十分ではない収納スペース</string>
+    <string name="MSG_COMPOSEKEY_RESELECT">キーがすでに使用されている、キーの組み合わせを再選択してください</string>
+    <string name="MSG_COMPOSEKEY_SELECT">キーの必要な組み合わせをクリックしてください</string>
+    <string name="MSG_GAMELIST_BLANK_SUMMARY">デバイスにROMを転送し、ゲームのリストを更新ドロップするUSBケーブルを使用してください</string>
+    <string name="MSG_GAMELIST_TITLE">ゲームリスト</string>
+    <string name="MSG_KEY_COMPOSE_MACRO_USED">キーはショートカットキーで、追加するために繰り返すことができません！</string>
+    <string name="MSG_KEYMACRO_CHOOSE">ショートカットをバインドしてください...</string>
+    <string name="MSG_KEYMACRO_DEF_EMPTY_SUMMARY">TスティックまたはDPADをタッチし、キーマクロを追加するには、ボタンをクリックして</string>
+    <string name="MSG_KEYMACRO_LIMIT">キーの数は60以上にすることはできません</string>
+    <string name="MSG_REFRESH_COUNT">更新された％1$d個のゲーム、％2$d個の試合の合計</string>
+    <string name="MSG_REFRESH_FINISH">更新が完了しました</string>
+    <string name="MSG_REFRESH_LOADING">読み込んでいます...</string>
+    <string name="MSG_REFRESH_RELEASE">リリースは、リフレッシュすることができます...</string>
+    <string name="MSG_RELOAD_ARCHIVE_REPLACE">あなたがアーカイブを交換しますか？</string>
+    <string name="MSG_RELOAD_ARCHIVE_SAVE">新しいアーカイブ</string>
+    <string name="MSG_RELOAD_NO_ARCHIVE_LOADED">いいえアーカイブは再ロードすることはできない</string>
+    <string name="MSG_OWN_ROOM">私の部屋 -- </string>
+    <string name="MSG_ROOM">ルーム</string>
+    <string name="TAB_GAMEROOMS_CURRENT">現在のゲームルーム</string>
+    <string name="TAB_GAMESROOMS_OTHER">他のゲームルーム</string>
+    <string name="app_name">賭博センター</string>
+    <string name="menu_vkey_X">ボタン- X </string>
+    <string name="menu_vkey_Y">ボタン、 Y </string>
+    <string name="menu_vkey_A">ボタン- A </string>
+    <string name="menu_vkey_B">ボタン- B </string>
+    <string name="menu_vkey_MENU">メニュー</string>
+    <string name="menu_vkey_SELECT">を選択 </string>
+    <string name="menu_vkeys">仮想キーを </string>
+    <string name="menu_options">オプション</string>
+    <string name="menu_quit_game"> ゲームを終了</string>
+    <string name="menu_quit"> アプリケーションを終了 </string>
+    <!-- GameListActivity -->
+    <string name="gamelist_network_title">ヒント</string>
+    <string name="gamelist_network_msg">現在のネットワークを が利用できない、ネットワークの状態を確認してください。</string>
+    <string name="gamelist_push_yes">は</string>
+    <string name="gamelist_push_no">  NO  </string>
+    <!-- 主な左 -->
+    <string name="menu_title_setting">メニュー</string>
+    <string name="menu_onfile_select"> ゲームを選択</string>
+    <!-- ユーザプレファレンス -->
+    <string name="user_current_value">現在値：</string>
+    <string name="user_current_all">オール</string>
+    <string name="user_message"> ？このことについてよろしい</string>
+    <string name="user_yes">は</string>
+    <string name="user_no"> NO </string>
+    <string name="user_restore_message">あなたはあなたがそれを復元したい？ </string>
+    <string name="user_definekeys_message"> 自動検出を有効に処理  ！ </string>
+    <string name="user_definekey_play">あなたがを無効にする必要が</string>
+    <string name="user_definekey_play_end">自動的に重要な役割を変更する</string>
+    <!-- OnFileView -->
+    <string name="onfile_title"> ゲームを選択</string>
+    <string name="onfile_btn_save_ok">正常に保存</string>
+    <!-- エミュレータ -->
+    <string name="emulator_dialog_pause_title">オンラインバトルを </string>
+    <string name="emulator_dialog_pause_msg">ゲームの一時停止... </string>
+    <!-- GameWifiSkt -->
+    <string name="network_request_join">がゲームへの参加を要求している... </string>
+    <string name="network_waiting_join">ウェイティングゲーム... </string>
+    <string name="network_request_allow"> あなたが許可するかどうか、ゲームに参加する 要求を？ </string>
+    <string name="network_btn_creategame">「ゲームを作る」  </string>
+    <string name="network_dialog_single">単一のゲームを </string>
+    <string name="network_dialog_warning">ヒント</string>
+    <string name="network_dialog_refuse">をが参加することを拒否した。</string>
+    <string name="network_dialog_missrom_title">ヒント</string>
+    <string name="network_dialog_missrom_msg">ゲームパッケージをは、ゲームパッケージかどうかを尋ね、存在しないのですか？ </string>
+    <string name="network_dialog_missrom_waiting">待っています...</string>
+    <string name="network_dialog_sharerom_title">ヒント</string>
+    <string name="network_dialog_sharerom_msg">共有したい場合は、ゲームパッケージを ？ </string>
+    <string name="network_dialog_sharerom_transfering">転送ファイルを ... </string>
+    <string name="network_progress_loading">ファイルのロードを ... </string>
+    <string name="network_dialog_refuterom_title">ヒント</string>
+    <string name="network_dialog_refuterom_msg">はゲームパッケージを共有することを拒否</string>
+    <string name="network_category_current">現在のゲームを</string>
+    <!-- DialogHelper -->
+    <string name="help_yes">は</string>
+    <string name="help_no"> NO </string>
+    <string name="help_save_message"> 変更内容あなたを保存したい？ </string>
+    <string name="help_rom_path_message">  あなたがそれにデフォルトのインストール（ ROM）パスを使用したい ？ （推奨） </string>
+    <string name="help_exit">あなたはあなたがとにかくやめたい？ </string>
+    <string name="help_writing_error">エラー</string>
+    <string name="help_info">情報を</string>
+    <string name="help_exit_game">あなたはあなたが右のゲームを終了したい？ </string>
+    <string name="help_thanks">私はいくつかの無料をリリース、非商業的な使用のための条件が許すアーケードエミュレータを満たし、私を支援していただきありがとうございます。</string>
+    <string name="help_restart_title">再起動  </string>
+    <string name="help_restart_message">は変更を有効にするために再入力のゲームにする必要があります。</string>
+    <string name="help_dismiss"> 閉じ </string>
+    <string name="help_hangup_messgae">もう一つは、\ nの単一のゲームを続けて、試合を残している... </string>
+    <!-- 追加されるMainHelper -->
+    <string name="m_help_setting_hint">コントロールパネルをカスタマイズするためにのみフルスクリーンモードでは許可され。 </string>
+    <!-- SensitivityPrefScreen -->
+    <string name="prsfs_save"> を保存</string>
+    <!-- LoadSaveGame -->
+    <string name="ARCHIVE_DIALOG_TIP">リマインダーを </string>
+    <string name="UNARCHIVE_DIALOG_MSG">あなたは必ず選択したファイルを削除しますか？</string>
+    <!-- について -->
+    <string name="ABOUT_VERSION">バージョン番号： 1.0.0</string>
+    <string name="ABOUT_VERSION_DEFAULT">バージョン番号： </string>
+    <!-- ダウンロード -->
+    <string name="download_title">勧告</string>
+    <!-- エミュレータ -->
+    <string name="toast_no_games">をが、このゲームには存在しません</string>
+    <string name="toast_no_roms">このゲームROMを見つけられません。</string>
+    <!-- GameLogoActivity -->
+    <string name="LOGO_NO_SD_MSG"> いいえSDカードが見つかりませんでした。</string>
+    <string name="LOGO_TIP">ヒント</string>
+    <!-- Mainfest -->
+    <string name="fest_label_setting">アーケード設定</string>
+    <string name="fest_label_define_keys">MAME4droidリローデッドがキーの定義</string>
+    <string name="fest_label_player_keys">MAME4droidリローデッドプレイヤーキー</string>
+    <string name="fest_label_select_keys">選択 キー</string>
+    <string name="fest_label_reload_rec">勧告</string>
+    <!-- GameKit -->
+    <string name="gamekit_connetted_fail">接続装置に失敗しました</string>
+    <string name="gamekit_dis_connectted">切断</string>
+    <string name="gamekit_saving">保存... </string>
+    <string name="gamekit_dialog_title">ヒント</string>
+    <string name="gamekit_dialog_client_msg">ゲームパッケージかどうかを尋ねる ？ </string>
+    <string name="gamekit_dialog_yes">は</string>
+    <string name="gamekit_dialog_ask_gamepack">ゲームパックを要求されて... </string>
+    <string name="gamekit_dialog_no">NO  </string>
+    <string name="gamekit_dialog_server_msg"> ゲームパッケージを共有するかどうかを  ？ </string>
+    <string name="gamekit_transfer_file">ファイル転送... </string>
+    <string name="gamekit_dialog_refuse_msg">はゲームパッケージを共有することを拒否</string>
+    <string name="gamekit_toast_bt_notuse"> Bluetoothデバイスがは使用できません</string>
+    <string name="gamekit_dialog_search_title">がデバイスを探している</string>
+    <string name="gamekit_btn_creategames"> ゲームを構築</string>
+    <string name="gamekit_dialog_wait">接続待ち</string>
+    <string name="gamekit_dialog_connecting"> に接続されて</string>
+    <string name="gamekit_toast_bt_not_found"> ​​Bluetoothデバイスが見つかりません</string>
+    <string name="gamekit_category_current">現在のゲームを </string>
+    <string name="gamekit_category_other">他のゲームを </string>
+    <string name="gamekit_progress_request_join">ゲームに参加する要求を ... </string>
+    <string name="gamekit_join_title">ヒント</string>
+    <string name="gamekit_join_msg"> 許可するかどうか、ゲームに参加する要求を？ </string>
+    <string name="gamekit_join_cancel">を拒絶 </string>
+    <string name="gamekit_join_refute_title">ヒント</string>
+    <string name="gamekit_join_refute_msg">をしてゲームに参加することを拒否した。</string>
+    <string name="no_enough_space">残りのスペースが不足しので、ゲーム内でのパッケージを取得するには、後にクリーンアップしてください。</string>
+    <string name="download_no_enough_space">十分なスペースを 、後にクリーンアップしてから、ゲームパックをダウンロードしてください。 </string>
+    <!-- コンビネーション -->
+    <string name="composekey_toast_many">は3キーの組み合わせを設定することができます！</string>
+    <!-- PullRefreshView -->
+    <string name="PULL_REFRESHING"> さわやか ... </string>
+    <string name="PULL_DOWN_REFRESH">リフレッシュ のプルダウンを実行する準備ができて</string>
+    <string name="PULL_UPDATE_MSG">更新日：</string>
+    <string name="PULL_UPDATE_DEFAULT_MSG">更新日：ちょうど</string>
+    <!-- ListActivityダイアログ -->
+    <string name="scan_loading">スキャンのゲームROMを ... </string>
+    <!-- userpreferemces   Setting  xml -->
+    <string name="user_setting_title">配置</string>
+    <string name="user_gf_keyword_title">ろ過キーワード</string>
+    <string name="PREF_GAMEPAD_DZ_TITLE">アナログレバー死角</string>
+    <string name="PREF_GLOBAL_SUSPEND_NOTIFICATION_SUMMARY">ゲームを通知する欄のアイコン表示</string>
+    <string name="PREF_GLOBAL_SUSPEND_NOTIFICATION_TITLE">通知アイコン</string>
+    <!-- 高级设置 -->
+    <string name="PREF_MAIN_THREAD_PRIORITY_TITLE">主スレッド優先順位</string>
+    <!-- 删除对话框 -->
+    <string name="gamelist_alert_delete_msg">あなたは必ず、地元のゲームバッグを削除しますか？ </string>
+
+</resources>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BTN_COMMON_CANCEL">Cancellare</string>
+    <string name="BTN_COMMON_DELETE">Cancellare</string>
+    <string name="BTN_COMMON_OK">Bene</string>
+    <string name="BTN_OPTIONS_COMPOSEKEY">Compose Key</string>
+    <string name="BTN_OPTIONS_GOLDFINGER">Trucchi</string>
+    <string name="BTN_OPTIONS_MARCO">Key Macr</string>
+    <string name="BTN_OPTIONS_UNARCHIVE">Ricaricare</string>
+    <string name="BTN_TEXT_GAMETYPE_BLUETOOTH">Bluetooth</string>
+    <string name="BTN_TEXT_GAMETYPE_NETWORK">Wi-Fi</string>
+    <string name="BTN_TEXT_GAMETYPE_SINGLE">Singolo</string>
+    <string name="LISTITEM_ABOUT_HELP">Aiuto</string>
+    <string name="LISTITEM_ABOUT_PROTOCOL">Accordo</string>
+    <string name="LISTITEM_MENU_ABOUT">Accordo</string>
+    <string name="LISTITEM_MENU_ARCHIVE">Accordo</string>
+    <string name="LISTITEM_MENU_EXIT">Exit</string>
+    <string name="LISTITEM_MENU_SETTING">Impostazione</string>
+    <string name="LISTITEM_SETTING_ADVANCED_SUMMARY">Selezionare per aprire le opzioni avanzate</string>
+    <string name="LISTITEM_SETTING_ADVANCED_TITLE">Avanzato</string>
+    <string name="LISTITEM_SETTING_ANALOG_DZ_TITLE">Avanzato</string>
+    <string name="LISTITEM_SETTING_ANIMATED_INPUT_SUMMARY">Touch control animato . Disattiva per spinta enorme di prestazioni</string>
+    <string name="LISTITEM_SETTING_ANIMATED_INPUT_TITLE">Animato</string>
+    <string name="LISTITEM_SETTING_ANTIALIAS_SUMMARY">Abilita rendering delle linee antialias per i giochi vettoriali</string>
+    <string name="LISTITEM_SETTING_ANTIALIAS_TITLE">Antialias</string>
+    <string name="LISTITEM_SETTING_AUTOFIRE_TITLE">Pulsante B come autofire</string>
+    <string name="LISTITEM_SETTING_AUTOMAP_OPTIONS_TITLE">Opzioni GamePad Automap</string>
+    <string name="LISTITEM_SETTING_BEAM2X_SUMMARY">Imposta la larghezza dei vettori a 2x</string>
+    <string name="LISTITEM_SETTING_BEAM2X_TITLE">Fascio 2x</string>
+    <string name="LISTITEM_SETTING_BUTTONS_SIZE_TITLE">Dimensioni Pulsanti ( fullscreen )</string>
+    <string name="LISTITEM_SETTING_CONTROLLER_TYPE_2_TITLE">Toccare tipo</string>
+    <string name="LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_SUMMARY">Seleziona per personalizzare il layout di controllo a schermo intero</string>
+    <string name="LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_TITLE">Personalizzare il layout di tocco</string>
+    <string name="LISTITEM_SETTING_DEBUG_SUMMARY">Solo per gli sviluppatori</string>
+    <string name="LISTITEM_SETTING_DEBUG_TITLE">Modalità di debug</string>
+    <string name="LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_SUMMARY">Ripristinare layout di controllo fullscreen ai valori di default</string>
+    <string name="LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_TITLE">Layout tocco di default</string>
+    <string name="LISTITEM_SETTING_DEFAULTSKEYS_SUMMARY">RChiavi di ripristino ai valori di default</string>
+    <string name="LISTITEM_SETTING_DEFAULTSKEYS_TITLE">Tasti predefiniti</string>
+    <string name="LISTITEM_SETTING_DEFINEKEYS_SUMMARY">Selezionare per mappare bastone emulatore e pulsanti di tasti fisici . ( Xperia Play e tutti gli altri dispositivi con utenti di tastiere fisiche dovrebbe configurare i pulsanti o tasti qui)</string>
+    <string name="LISTITEM_SETTING_DEFINEKEYS_TITLE">Definire le chiavi</string>
+    <string name="LISTITEM_SETTING_DISABLE_RIGHT_STICK_SUMMARY">Disabilitare levetta destra quando viene rilevato automaticamente</string>
+    <string name="LISTITEM_SETTING_DISABLE_RIGHT_STICK_TITLE">Gamepad disabilitare levetta destra</string>
+    <string name="LISTITEM_SETTING_DOUBLE_BUFFER_SUMMARY">Evita lo sfarfallio a scapito delle prestazioni</string>
+    <string name="LISTITEM_SETTING_DOUBLE_BUFFER_TITLE">Doppio Buffer</string>
+    <string name="LISTITEM_SETTING_EMULATED_RESOLUTION">Risoluzione emulato</string>
+    <string name="LISTITEM_SETTING_FILTER_CATEGORY_TITLE">Categoria</string>
+    <string name="LISTITEM_SETTING_FILTER_CLONES_SUMMARY">Attiva per nascondere cloni in Gestione ROM</string>
+    <string name="LISTITEM_SETTING_FILTER_CLONES_TITLE">Hide cloni</string>
+    <string name="LISTITEM_SETTING_FILTER_DRVSRC_TITLE">Autista Fonte</string>
+    <string name="LISTITEM_SETTING_FILTER_FAVORITES_SUMMARY">Consentirà di visualizzare solo i giochi preferiti in Gestione ROM</string>
+    <string name="LISTITEM_SETTING_FILTER_FAVORITES_TITLE">Mostra solo preferiti</string>
+    <string name="LISTITEM_SETTING_FILTER_KEYWORD_TITLE">Parola chiave</string>
+    <string name="LISTITEM_SETTING_FILTER_MANUF_TITLE">Parola chiave</string>
+    <string name="LISTITEM_SETTING_FILTER_NOTWORKING_SUMMARY">Attiva per nascondere i giochi non lavorano in Gestione ROM</string>
+    <string name="LISTITEM_SETTING_FILTER_NOTWORKING_TITLE">Hide non funziona</string>
+    <string name="LISTITEM_SETTING_FILTER_SUMMARY">Selezionare per aprire le opzioni di filtro gioco</string>
+    <string name="LISTITEM_SETTING_FILTER_TITLE">Filtro gioco</string>
+    <string name="LISTITEM_SETTING_FILTER_YGTE_TITLE">Anno &gt;=</string>
+    <string name="LISTITEM_SETTING_FILTER_YLTE_TITLE">Anno &lt;=</string>
+    <string name="LISTITEM_SETTING_FLICKER_SUMMARY">Simula un vettore effetto flicker</string>
+    <string name="LISTITEM_SETTING_FLICKER_TITLE">Flicker</string>
+    <string name="LISTITEM_SETTING_FORCE_GLES10_SUMMARY">Forze OpenGL ES 1.0 rendering percorso</string>
+    <string name="LISTITEM_SETTING_FORCE_GLES10_TITLE">Force OpenGL ES 1.0</string>
+    <string name="LISTITEM_SETTING_FORCE_PXASPECT_2_TITLE">Aspetto</string>
+    <string name="LISTITEM_SETTING_FRAMESKIP_TITLE">Telaio salto</string>
+    <string name="LISTITEM_SETTING_GENERAL_SUMMARY">Selezionare per aprire le opzioni generali</string>
+    <string name="LISTITEM_SETTING_GENERAL_TITLE">Generale</string>
+    <string name="LISTITEM_SETTING_HIDE_STICK_SUMMARY">Consentire di nascondere il bastone o dpad quando fullscreen</string>
+    <string name="LISTITEM_SETTING_HIDE_STICK_TITLE">Nascondi bastone</string>
+    <string name="LISTITEM_SETTING_IDLE_WAIT_SUMMARY">Cercate di risparmiare la batteria a scapito di jitter su alcuni dispositivi</string>
+    <string name="LISTITEM_SETTING_IDLE_WAIT_TITLE">Risparmia batteria</string>
+    <string name="LISTITEM_SETTING_INPUT_EXTERNAL_2_TITLE">Controller esterno</string>
+    <string name="LISTITEM_SETTING_INPUTSETTINGS_SUMMARY">Selezionare per aprire le opzioni di input</string>
+    <string name="LISTITEM_SETTING_INPUTSETTINGS_TITLE">Ingresso</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_SUMMARY">Selezionare per attivare il filtro bitmap , a scapito delle prestazioni</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_TITLE">Scala Smooth</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_OVERLAY_TITLE">Effetto di sovrapposizione</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_SCALING_MODE_3_TITLE">modalità di ridimensionamento</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_SUMMARY">Disabilitare per nascondere il touch controller . Utile quando si utilizza un GamePad</string>
+    <string name="LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_TITLE">Toccare regolatore visibile</string>
+    <string name="LISTITEM_SETTING_LANSDSCAPE_TITLE">Toccare regolatore visibile</string>
+    <string name="LISTITEM_SETTING_LIGHTGUN_SUMMARY">Attiva per toccare touchscreen come lightgun . Primo dito è il fuoco principale. Secondo dito quando si preme primo dito è il fuoco alternativo. Regolatore di tocco deve essere abilitato .</string>
+    <string name="LISTITEM_SETTING_LIGHTGUN_TITLE">toccare lightgun</string>
+    <string name="LISTITEM_SETTING_NUMBUTTONS_2_TITLE">Numero di tasti ( fullscreen )</string>
+    <string name="LISTITEM_SETTING_OVERLAY_INTENSITY_TITLE">Effetto intensità overlay</string>
+    <string name="LISTITEM_SETTING_PORTRAIT_TITLE">Impostazioni Ritratto di visualizzazione</string>
+    <string name="LISTITEM_SETTING_PREFSCR_EMU_SUMMARY">Selezionare per aprire le opzioni di emulazione</string>
+    <string name="LISTITEM_SETTING_PREFSCR_EMU_TITLE">Emulazione</string>
+    <string name="LISTITEM_SETTING_PXASP1_SUMMARY">Lasciare un unico dispositivo di input per controllare più giocatori contemporaneamente . Potrebbe causare problemi in alcune ROM</string>
+    <string name="LISTITEM_SETTING_PXASP1_TITLE">P4 , P3 , P2 P1</string>
+    <string name="LISTITEM_SETTING_RESTOREFILTERS_SUMMARY">Ripristinare tutti i filtri ai valori di default</string>
+    <string name="LISTITEM_SETTING_RESTOREFILTERS_TITLE">Azzera i filtri per difetto</string>
+    <string name="LISTITEM_SETTING_SHOW_FPS_SUMMARY">Consentirle di attivare visualizzazione FPS su</string>
+    <string name="LISTITEM_SETTING_SHOW_FPS_TITLE">Mostra FPS</string>
+    <string name="LISTITEM_SETTING_SHOW_INFOWARNINGS_SUMMARY">Mostra Gioco Info e eventuali avvisi quando un gioco viene selezionato</string>
+    <string name="LISTITEM_SETTING_SHOW_INFOWARNINGS_TITLE">Mostra informazioni / avvertenze</string>
+    <string name="LISTITEM_SETTING_SOUND_ENGINE_TITLE">Sound Engine</string>
+    <string name="LISTITEM_SETTING_SOUND_SYNC_SUMMARY">Consentirle di fare la sincronizzazione audio ( sync alternativa a strozzamento disabili )</string>
+    <string name="LISTITEM_SETTING_SOUND_SYNC_TITLE">Audio Sync</string>
+    <string name="LISTITEM_SETTING_SOUND_TITLE">Suono</string>
+    <string name="LISTITEM_SETTING_SPEED_TITLE">Velocità emulato</string>
+    <string name="LISTITEM_SETTING_STICK_SIZE_TITLE">Stick e DPAD dimensioni ( fullscreen )</string>
+    <string name="LISTITEM_SETTING_STICK_TYPE_2_TITLE">Stick tipo</string>
+    <string name="LISTITEM_SETTING_THREADED_VIDEO_SUMMARY">Prestazioni spinta su dispositivi doppi core. Disabilitare per hi-res emulati risoluzioni se hai artefatti o strappi a scapito delle prestazioni</string>
+    <string name="LISTITEM_SETTING_THREADED_VIDEO_TITLE">Video filettato Render</string>
+    <string name="LISTITEM_SETTING_THROTTLE_SUMMARY">Consentirle di attivare la limitazione di velocità su . Se si disattiva lo autoframeskip è attivato anche</string>
+    <string name="LISTITEM_SETTING_THROTTLE_TITLE">Throttle</string>
+    <string name="LISTITEM_SETTING_TILT_ANALOG_SUMMARY">Attiva per utilizzare il sensore di inclinazione come dispositivo analogico , disabilitare da usare come digitale</string>
+    <string name="LISTITEM_SETTING_TILT_ANALOG_TITLE">Inclinare come analogico</string>
+    <string name="LISTITEM_SETTING_TILT_DZ_TITLE">Sensore di inclinazione zona morta</string>
+    <string name="LISTITEM_SETTING_TILT_NEUTRAL_TITLE">Sensore di inclinazione verticale neutra</string>
+    <string name="LISTITEM_SETTING_TILT_SENSITIVITY_SUMMARY">Impostare la sensibilità del sensore di inclinazione</string>
+    <string name="LISTITEM_SETTING_TILT_SENSITIVITY_TITLE">Sensibilità del sensore di inclinazione</string>
+    <string name="LISTITEM_SETTING_TILT_SENSOR_SUMMARY">Attiva per utilizzare il sensore di inclinazione .</string>
+    <string name="LISTITEM_SETTING_TILT_SENSOR_TITLE">sensore di inclinazione</string>
+    <string name="LISTITEM_SETTING_TILT_SWAP_YZ_SUMMARY">Enable to swap Z,Y axes. This fixes vertical tilt on some devices like NVidia Shield.</string>
+    <string name="LISTITEM_SETTING_TILT_SWAP_YZ_TITLE">Swap Z , assi Y</string>
+    <string name="LISTITEM_SETTING_TILT_TOUCH_SUMMARY">Attiva per toccare un punto qualsiasi dello schermo per sparare . Primo dito è il fuoco principale. Secondo dito quando si preme primo dito è il fuoco alternate</string>
+    <string name="LISTITEM_SETTING_TILT_TOUCH_TITLE">Toccare un punto qualsiasi</string>
+    <string name="LISTITEM_SETTING_TILTSENSOR_SUMMARY">Selezionare per aprire le opzioni sensore di inclinazione</string>
+    <string name="LISTITEM_SETTING_TOUCH_DZ_SUMMARY">Abilita touch Dead Zone</string>
+    <string name="LISTITEM_SETTING_TOUCH_DZ_TITLE">Tocco Digital zona morta</string>
+    <string name="LISTITEM_SETTING_VECTOR_SUMMARY">Selezionare per aprire le opzioni giochi vettoriali</string>
+    <string name="LISTITEM_SETTING_VECTOR_TITLE">Vettore</string>
+    <string name="LISTITEM_SETTING_VIBRATE_SUMMARY">Abilita a vibrare quando tocco</string>
+    <string name="LISTITEM_SETTING_VIBRATE_TITLE">Vibrazione tasti</string>
+    <string name="LISTITEM_SETTING_VIDEO_RENDER_MODE_2_TITLE">Video Engine</string>
+    <string name="LISTITEM_SETTING_VIDEO_THREAD_PRIORITY_TITLE">Priorità Video thread</string>
+    <string name="LISTITEM_SETTING_VSYNC_TITLE">Frequenza di aggiornamento forzato ( Hz )</string>
+    <string name="LISTITEM_SETTING_WARN_ON_EXIT_SUMMARY">Consentirle di avvisare quando si preme il pulsante di uscita del controller esterno ( GamePad ) quando gioco</string>
+    <string name="LISTITEM_SETTING_WARN_ON_EXIT_TITLE">Arn in uscita</string>
+    <string name="MSG_COMMON_ALERT_EXIT">Sei sicuro di smettere ?</string>
+    <string name="MSG_COMMON_ALERT_TITLE">Ricordare</string>
+    <string name="MSG_COMMON_FAILED_TO_CREATE_FILE">Impossibile creare il file</string>
+    <string name="MSG_COMMON_NOT_ENOUGH_STORAGE_SPACE">Non abbastanza spazio di archiviazione</string>
+    <string name="MSG_COMPOSEKEY_RESELECT">La chiave è già in uso , si prega di ri - selezionare la combinazione di tasti</string>
+    <string name="MSG_COMPOSEKEY_SELECT">Cliccate sulle combinazioni richieste dei tasti</string>
+    <string name="MSG_GAMELIST_BLANK_SUMMARY">Si prega di utilizzare il cavo USB per trasferire ROM \n al dispositivo e rilasciare aggiornare l’elenco dei giochi</string>
+    <string name="MSG_GAMELIST_TITLE">Lista giochi</string>
+    <string name="MSG_KEY_COMPOSE_MACRO_USED">La chiave è la combinazione di tasti , non può essere ripetuta per aggiungere !</string>
+    <string name="MSG_KEYMACRO_CHOOSE">Si prega di legare le scorciatoie ...</string>
+    <string name="MSG_KEYMACRO_DEF_EMPTY_SUMMARY">Toccare Stick o DPAD e fare clic sul pulsante per aggiungere una macro chiave</string>
+    <string name="MSG_KEYMACRO_LIMIT">Numero di chiave non può essere superiore al 60.</string>
+    <string name="MSG_REFRESH_COUNT">Aggiornato %1$d giochi , per un totale di %2$d giochi</string>
+    <string name="MSG_REFRESH_FINISH">Aggiornamento completo</string>
+    <string name="MSG_REFRESH_LOADING">Caricamento in corso ...</string>
+    <string name="MSG_REFRESH_RELEASE">Rilasciato può ricaricare ...</string>
+    <string name="MSG_RELOAD_ARCHIVE_REPLACE">Sei sicuro di sostituire l’archivio ?</string>
+    <string name="MSG_RELOAD_ARCHIVE_SAVE">Nuovo archivio</string>
+    <string name="MSG_RELOAD_NO_ARCHIVE_LOADED">Nessun archivio può essere ricaricato</string>
+    <string name="MSG_OWN_ROOM">My Room -- </string>
+    <string name="MSG_ROOM">Room</string>
+    <string name="TAB_GAMEROOMS_CURRENT">Gioco corrente Camera</string>
+    <string name="TAB_GAMESROOMS_OTHER">Altro Game Room</string>
+    <string name="app_name">Arcade Hub</string>
+    <string name="menu_vkey_X">Button-X</string>
+    <string name="menu_vkey_Y">Button-Y</string>
+    <string name="menu_vkey_A">Button-A</string>
+    <string name="menu_vkey_B">Button-B</string>
+    <string name="menu_vkey_MENU">MENU</string>
+    <string name="menu_vkey_SELECT">SELECT</string>
+    <string name="menu_vkeys">Virtual Keys</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_quit_game">Exit Game</string>
+    <string name="menu_quit">Exit App</string>
+    <!-- GameListActivity -->
+    <string name="gamelist_network_title">Prompt</string>
+    <string name="gamelist_network_msg">La rete attuale non è disponibile, si prega di controllare lo stato della rete.</string>
+    <string name="gamelist_push_yes">sì</string>
+    <string name="gamelist_push_no">No</string>
+    <!-- main left -->
+    <string name="menu_title_setting">MENU</string>
+    <string name="menu_onfile_select">selezionare Giochi</string>
+    <!-- UserPreferences -->
+    <string name="user_current_value">Il valore attuale è </string>
+    <string name="user_current_all">tutto</string>
+    <string name="user_message">Sei sicuro? (app riavvio necessario)</string>
+    <string name="user_yes">sì</string>
+    <string name="user_no">no</string>
+    <string name="user_restore_message">Sei sicuro di ripristinare?</string>
+    <string name="user_definekeys_message">GamePad Autodetect è abilitato!</string>
+    <string name="user_definekey_play">giocatore</string>
+    <string name="user_definekey_play_end">gamepad viene riconosciuta! È necessario disattivare il rilevamento automatico di cambiare le chiavi di questo giocatore</string>
+    <!-- OnFileView -->
+    <string name="onfile_title">Scegli Games</string>
+    <string name="onfile_btn_save_ok">Salva Successo</string>
+    <!-- Emulator -->
+    <string name="emulator_dialog_pause_title">Multiplayer</string>
+    <string name="emulator_dialog_pause_msg">La sospensione del gioco ...</string>
+    <!-- GameWifiSkt -->
+    <string name="network_request_join">La sospensione del Gioco ...</string>
+    <string name="network_waiting_join">Sono in attesa per la partita di aderire ...</string>
+    <string name="network_request_allow">Chiedere di partecipare al gioco, se permettete?</string>
+    <string name="network_btn_creategame">Crea partita</string>
+    <string name="network_dialog_single">Inizia gioco</string>
+    <string name="network_dialog_warning">Prompt</string>
+    <string name="network_dialog_refuse">rifiutato di aderire.</string>
+    <string name="network_dialog_missrom_title">Prompt</string>
+    <string name="network_dialog_missrom_msg">Pacchetto di gioco non esiste, sia per pacchetti di giochi?</string>
+    <string name="network_dialog_missrom_waiting">Aspetta ...</string>
+    <string name="network_dialog_sharerom_title">Prompt</string>
+    <string name="network_dialog_sharerom_msg">Sia o non condividere il pacchetto di gioco?</string>
+    <string name="network_dialog_sharerom_transfering">Trasferire i file ...</string>
+    <string name="network_progress_loading">Caricare il file ...</string>
+    <string name="network_dialog_refuterom_title">Prompt</string>
+    <string name="network_dialog_refuterom_msg">Rifiutarsi di condividere il pacchetto di gioco</string>
+    <string name="network_category_current">Giochi del momento</string>
+    <!-- DialogHelper -->
+    <string name="help_yes">sì</string>
+    <string name="help_no">No</string>
+    <string name="help_save_message">Vuoi salvare le modifiche?</string>
+    <string name="help_rom_path_message">Vuoi utilizzare installazione di default (ROM) di percorso? (consigliato)</string>
+    <string name="help_exit">Sei sicuro di voler uscire?</string>
+    <string name="help_writing_error">errore</string>
+    <string name="help_info">Info</string>
+    <string name="help_exit_game">Sei sicuro di voler uscire dal gioco?</string>
+    <string name="help_thanks">Mi sto liberando tutto gratis, in linea con i termini di licenza MAME, che è gratuito solo per uso non commerciale. Questo è strettamente una cosa che ho fatto perché volevo giocare con lui e hanno le competenze per farlo così. Detto questo, se state pensando a modi per sostenere il mio sviluppo vi suggerisco di controllare la mia pagina di supporto di altre opere libere per la comunità.</string>
+    <string name="help_restart_title">Restart bisogno!</string>
+    <string name="help_restart_message">MAME4droid bisogno di riavviare le modifiche abbiano effetto.</string>
+    <string name="help_dismiss">respingere</string>
+    <string name="help_hangup_messgae">L’altra ha lasciato il gioco, \n continuerà sola partita ...</string>
+    <!-- MainHelper  待补充 -->
+    <string name="m_help_setting_hint">Personalizzazione del layout di controllo è consentito solo in modalità a schermo intero</string>
+    <!-- SensitivityPrefScreen -->
+    <string name="prsfs_save">salvare</string>
+    <!-- LoadSaveGame -->
+    <string name="ARCHIVE_DIALOG_TIP">Waring</string>
+    <string name="UNARCHIVE_DIALOG_MSG">Sei sicuro di voler eliminare i file selezionati?</string>
+    <!-- about -->
+    <string name="ABOUT_VERSION">versione：1.0.0</string>
+    <string name="ABOUT_VERSION_DEFAULT">versione: </string>
+    <!-- download -->
+    <string name="download_title">raccomandare</string>
+    <!-- Emulator  未用 -->
+    <string name="toast_no_games">Non c’è questo gioco.</string>
+    <string name="toast_no_roms">questa la rom non si trova.</string>
+    <!-- GameLogoActivity -->
+    <string name="LOGO_NO_SD_MSG">sdcard non si trova.</string>
+    <string name="LOGO_TIP">Prompt</string>
+    <!-- mainfest -->
+    <string name="fest_label_setting">impostazioni MAME4droid</string>
+    <string name="fest_label_define_keys">MAME4droid Reloaded definire i tasti</string>
+    <string name="fest_label_player_keys">MAME4droid Reloaded Player Keys</string>
+    <string name="fest_label_select_keys">Tasto di selezione</string>
+    <string name="fest_label_reload_rec">MAME4droid Reloaded Consiglia</string>
+    <!-- GameKit -->
+    <string name="gamekit_connetted_fail">Il dispositivo di connessione non è riuscita.</string>
+    <string name="gamekit_dis_connectted">pausa di connessione</string>
+    <string name="gamekit_saving">salvato...</string>
+    <string name="gamekit_dialog_title">Prompt</string>
+    <string name="gamekit_dialog_client_msg">Per ottenere il pacchetto di gioco?</string>
+    <string name="gamekit_dialog_yes">sì</string>
+    <string name="gamekit_dialog_ask_gamepack">Chiede il pacchetto di gioco ...</string>
+    <string name="gamekit_dialog_no">No</string>
+    <string name="gamekit_dialog_server_msg">Sia pacchetti condivisione di gioco?</string>
+    <string name="gamekit_transfer_file">trasferire file ...</string>
+    <string name="gamekit_dialog_refuse_msg">Rifiutarsi di condividere il pacchetto di gioco</string>
+    <string name="gamekit_toast_bt_notuse">Dispositivi Bluetooth non è disponibile</string>
+    <string name="gamekit_dialog_search_title">Sono alla ricerca di attrezzature</string>
+    <string name="gamekit_btn_creategames">creare giochi</string>
+    <string name="gamekit_dialog_wait">in attesa di dispositivo per connettersi</string>
+    <string name="gamekit_dialog_connecting">È collegato al</string>
+    <string name="gamekit_toast_bt_not_found">I dispositivi Bluetooth non sono stati trovati</string>
+    <string name="gamekit_category_current">Giochi del momento</string>
+    <string name="gamekit_category_other">altri Giochi</string>
+    <string name="gamekit_progress_request_join">Richiesta di partecipare al gioco ...</string>
+    <string name="gamekit_join_title">Prompt</string>
+    <string name="gamekit_join_msg">Chiedere di partecipare al gioco, se consentire?</string>
+    <string name="gamekit_join_cancel">cancellare</string>
+    <string name="gamekit_join_refute_title">Prompt</string>
+    <string name="gamekit_join_refute_msg">L’altra parte ha rifiutato di partecipare al gioco.</string>
+    <string name="no_enough_space">Lo spazio rimanente, si prega di pulire dopo, e poi scaricare il pacchetto di gioco.</string>
+    <string name="download_no_enough_space">Lo spazio rimanente, si prega di pulire dopo, e poi scaricare il pacchetto di gioco.</string>
+    <!-- Combination -->
+    <string name="composekey_toast_many">Può impostare tre combinazione di tasti!</string>
+    <!-- PullRefreshView -->
+    <string name="PULL_REFRESHING">rinfrescante...</string>
+    <string name="PULL_DOWN_REFRESH">discesa può essere pronto ad eseguire un aggiornamento</string>
+    <string name="PULL_UPDATE_MSG">aggiorna il: </string>
+    <string name="PULL_UPDATE_DEFAULT_MSG">aggiorna il: ora</string>
+    <!-- listActivity dialog -->
+    <string name="scan_loading">Eseguire la scansione della ROM del gioco ...</string>
+    <!-- userpreferemces   Setting  xml -->
+    <string name="user_setting_title">configurazione</string>
+    <string name="user_gf_keyword_title">filtro per parola chiave</string>
+    <!-- list -->
+    <string name="PREF_GLOBAL_SUSPEND_NOTIFICATION_SUMMARY">Consentirà di visualizzare un’icona di notifica quando MAME4droid è sospeso</string>
+    <string name="PREF_GLOBAL_SUSPEND_NOTIFICATION_TITLE">notifica Icon</string>
+    <string name="PREF_MAIN_THREAD_PRIORITY_TITLE">Principale Priorità thread</string>
+    <string name="PREF_GAMEPAD_DZ_TITLE">Zona morta Analog GamePad</string>
+    <!-- 删除对话框 -->
+    <string name="gamelist_alert_delete_msg">Sei sicuro di voler cancellare il pacchetto di gioco locale?</string>
+
+</resources>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- android:title="Configuration" -->
+    <!-- android:layout="@layout/game_setting_back" -->
+    <PreferenceCategory android:title="@string/user_setting_title" >
+        <PreferenceScreen
+            android:key="PREFSCR_GAME_FILTER"
+            android:persistent="false"
+            android:summary="@string/LISTITEM_SETTING_FILTER_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_FILTER_TITLE" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_FILTER_FAVORITES"
+                android:summary="@string/LISTITEM_SETTING_FILTER_FAVORITES_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_FILTER_FAVORITES_TITLE" />
+
+            <EditTextPreference
+                android:defaultValue=""
+                android:dialogTitle="@string/user_gf_keyword_title"
+                android:key="PREF_FILTER_KEYWORD"
+                android:title="@string/LISTITEM_SETTING_FILTER_KEYWORD_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_FILTER_CLONES"
+                android:summary="@string/LISTITEM_SETTING_FILTER_CLONES_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_FILTER_CLONES_TITLE" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_FILTER_NOTWORKING"
+                android:summary="@string/LISTITEM_SETTING_FILTER_NOTWORKING_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_FILTER_NOTWORKING_TITLE" />
+
+            <ListPreference
+                android:defaultValue="-1"
+                android:key="PREF_FILTER_YGTE"
+                android:title="@string/LISTITEM_SETTING_FILTER_YGTE_TITLE" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:key="PREF_FILTER_YLTE"
+                android:title="@string/LISTITEM_SETTING_FILTER_YLTE_TITLE" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:key="PREF_FILTER_MANUF"
+                android:title="@string/LISTITEM_SETTING_FILTER_MANUF_TITLE" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:key="PREF_FILTER_DRVSRC"
+                android:title="@string/LISTITEM_SETTING_FILTER_DRVSRC_TITLE" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:key="PREF_FILTER_CATEGORY"
+                android:title="@string/LISTITEM_SETTING_FILTER_CATEGORY_TITLE" />
+
+            <PreferenceScreen
+                android:key="restoreFilters"
+                android:summary="@string/LISTITEM_SETTING_RESTOREFILTERS_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_RESTOREFILTERS_TITLE" />
+        </PreferenceScreen>
+        <!-- GL -->
+        <PreferenceScreen
+            android:key="PREFSCR_EMU"
+            android:persistent="false"
+            android:summary="@string/LISTITEM_SETTING_PREFSCR_EMU_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_PREFSCR_EMU_TITLE" >
+            <ListPreference
+                android:defaultValue="1"
+                android:entries="@array/pref_resolution_options"
+                android:entryValues="@array/pref_resolution_values"
+                android:key="PREF_GLOBAL_RESOLUTION"
+                android:title="@string/LISTITEM_SETTING_EMULATED_RESOLUTION" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:entries="@array/pref_speed_options"
+                android:entryValues="@array/pref_speed_values"
+                android:key="PREF_GLOBAL_SPEED"
+                android:title="@string/LISTITEM_SETTING_SPEED_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_GLOBAL_SOUND_SYNC"
+                android:summary="@string/LISTITEM_SETTING_SOUND_SYNC_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_SOUND_SYNC_TITLE" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_GLOBAL_THROTTLE"
+                android:summary="@string/LISTITEM_SETTING_THROTTLE_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_THROTTLE_TITLE" />
+
+            <ListPreference
+                android:defaultValue="-1"
+                android:entries="@array/pref_frameskip_options"
+                android:entryValues="@array/pref_frameskip_values"
+                android:key="PREF_GLOBAL_FRAMESKIP"
+                android:title="@string/LISTITEM_SETTING_FRAMESKIP_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.ListPrefWithWarn
+                android:defaultValue="44100"
+                android:entries="@array/pref_sound_options"
+                android:entryValues="@array/pref_sound_values"
+                android:key="PREF_GLOBAL_SOUND"
+                android:title="@string/LISTITEM_SETTING_SOUND_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_GLOBAL_SHOW_FPS"
+                android:summary="@string/LISTITEM_SETTING_SHOW_FPS_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_SHOW_FPS_TITLE" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_GLOBAL_SHOW_INFOWARNINGS"
+                android:summary="@string/LISTITEM_SETTING_SHOW_INFOWARNINGS_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_SHOW_INFOWARNINGS_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_GLOBAL_IDLE_WAIT"
+                android:summary="@string/LISTITEM_SETTING_IDLE_WAIT_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_IDLE_WAIT_TITLE" />
+
+            <ListPreference
+                android:defaultValue="0"
+                android:entries="@array/pref_px_options"
+                android:entryValues="@array/pref_px_values"
+                android:key="PREF_GLOBAL_FORCE_PXASPECT_2"
+                android:title="@string/LISTITEM_SETTING_FORCE_PXASPECT_2_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.ListPrefWithWarn
+                android:defaultValue="-1"
+                android:entries="@array/pref_vsync_options"
+                android:entryValues="@array/pref_vsync_values"
+                android:key="PREF_GLOBAL_VSYNC"
+                android:title="@string/LISTITEM_SETTING_VSYNC_TITLE" />
+            
+
+            <PreferenceScreen
+                android:key="vector"
+                android:persistent="false"
+                android:summary="@string/LISTITEM_SETTING_VECTOR_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_VECTOR_TITLE" >
+                <com.yunluo.android.arcadehub.prefs.CheckBoxPrefWithWarn
+                    android:defaultValue="true"
+                    android:key="PREF_BEAM2X"
+                    android:summary="@string/LISTITEM_SETTING_BEAM2X_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_BEAM2X_TITLE" />
+                <com.yunluo.android.arcadehub.prefs.CheckBoxPrefWithWarn
+                    android:defaultValue="true"
+                    android:key="PREF_ANTIALIAS"
+                    android:summary="@string/LISTITEM_SETTING_ANTIALIAS_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_ANTIALIAS_TITLE" />
+                <com.yunluo.android.arcadehub.prefs.CheckBoxPrefWithWarn
+                    android:defaultValue="false"
+                    android:key="PREF_FLICKER"
+                    android:summary="@string/LISTITEM_SETTING_FLICKER_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_FLICKER_TITLE" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="inputSettings"
+            android:persistent="false"
+            android:summary="@string/LISTITEM_SETTING_INPUTSETTINGS_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_INPUTSETTINGS_TITLE" >
+            <PreferenceScreen
+                android:key="tiltSensor"
+                android:persistent="false"
+                android:summary="@string/LISTITEM_SETTING_TILTSENSOR_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_TILT_SENSOR_TITLE" >
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="PREF_TILT_SENSOR"
+                    android:summary="@string/LISTITEM_SETTING_TILT_SENSOR_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_TILT_SENSOR_TITLE" />
+
+                <ListPreference
+                    android:defaultValue="3"
+                    android:dependency="PREF_TILT_SENSOR"
+                    android:entries="@array/pref_dz_options"
+                    android:entryValues="@array/pref_dz_values"
+                    android:key="PREF_TILT_DZ"
+                    android:title="@string/LISTITEM_SETTING_TILT_DZ_TITLE" />
+
+                <com.yunluo.android.arcadehub.prefs.SensitivityPrefScreen
+                    android:defaultValue="6"
+                    android:dependency="PREF_TILT_SENSOR"
+                    android:key="PREF_TILT_SENSITIVITY"
+                    android:summary="@string/LISTITEM_SETTING_TILT_SENSITIVITY_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_TILT_SENSITIVITY_TITLE" />
+
+                <ListPreference
+                    android:defaultValue="5"
+                    android:dependency="PREF_TILT_SENSOR"
+                    android:entries="@array/pref_tilt_neutralz_options"
+                    android:entryValues="@array/pref_tilt_neutralz_values"
+                    android:key="PREF_TILT_NEUTRAL"
+                    android:title="@string/LISTITEM_SETTING_TILT_NEUTRAL_TITLE" />
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:dependency="PREF_TILT_SENSOR"
+                    android:key="PREF_TILT_ANALOG"
+                    android:summary="@string/LISTITEM_SETTING_TILT_ANALOG_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_TILT_ANALOG_TITLE" />
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:dependency="PREF_TILT_SENSOR"
+                    android:key="PREF_TILT_TOUCH"
+                    android:summary="@string/LISTITEM_SETTING_TILT_TOUCH_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_TILT_TOUCH_TITLE" />
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:dependency="PREF_TILT_SENSOR"
+                    android:key="PREF_TILT_SWAP_YZ"
+                    android:summary="@string/LISTITEM_SETTING_TILT_SWAP_YZ_SUMMARY"
+                    android:title="@string/LISTITEM_SETTING_TILT_SWAP_YZ_TITLE" />
+            </PreferenceScreen>
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_LIGHTGUN"
+                android:summary="@string/LISTITEM_SETTING_LIGHTGUN_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_LIGHTGUN_TITLE" />
+
+            <ListPreference
+                android:defaultValue="0"
+                android:entries="@array/pref_autofire_options"
+                android:entryValues="@array/pref_autofire_values"
+                android:key="PREF_AUTOFIRE"
+                android:title="@string/LISTITEM_SETTING_AUTOFIRE_TITLE" />
+
+            <PreferenceScreen
+                android:key="defineKeys"
+                android:summary="@string/LISTITEM_SETTING_DEFINEKEYS_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_DEFINEKEYS_TITLE" />
+            <PreferenceScreen
+                android:key="defaultsKeys"
+                android:summary="@string/LISTITEM_SETTING_DEFAULTSKEYS_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_DEFAULTSKEYS_TITLE" />
+
+            <ListPreference
+                android:defaultValue="2"
+                android:entries="@array/pref_input_external_options"
+                android:entryValues="@array/pref_input_external_values"
+                android:key="PREF_INPUT_EXTERNAL_2"
+                android:title="@string/LISTITEM_SETTING_INPUT_EXTERNAL_2_TITLE" />
+            <ListPreference
+                android:defaultValue="2"
+                android:entries="@array/pref_automap_options"
+                android:entryValues="@array/pref_automap_values"
+                android:key="PREF_AUTOMAP_OPTIONS"
+                android:title="@string/LISTITEM_SETTING_AUTOMAP_OPTIONS_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_DISABLE_RIGHT_STICK"
+                android:summary="@string/LISTITEM_SETTING_DISABLE_RIGHT_STICK_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_DISABLE_RIGHT_STICK_TITLE" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_ANIMATED_INPUT"
+                android:summary="@string/LISTITEM_SETTING_ANIMATED_INPUT_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_ANIMATED_INPUT_TITLE" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_VIBRATE"
+                android:summary="@string/LISTITEM_SETTING_VIBRATE_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_VIBRATE_TITLE" />
+
+            <ListPreference
+                android:defaultValue="3"
+                android:entries="@array/pref_controller_type_options"
+                android:entryValues="@array/pref_controller_type_values"
+                android:key="PREF_CONTROLLER_TYPE_2"
+                android:title="@string/LISTITEM_SETTING_CONTROLLER_TYPE_2_TITLE" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:entries="@array/pref_stick_options"
+                android:entryValues="@array/pref_stick_values"
+                android:key="PREF_STICK_TYPE_2"
+                android:title="@string/LISTITEM_SETTING_STICK_TYPE_2_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_TOUCH_DZ"
+                android:summary="@string/LISTITEM_SETTING_TOUCH_DZ_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_TOUCH_DZ_TITLE" />
+
+            <ListPreference
+                android:defaultValue="2"
+                android:entries="@array/pref_dz_options"
+                android:entryValues="@array/pref_dz_values"
+                android:key="PREF_ANALOG_DZ"
+                android:title="@string/LISTITEM_SETTING_ANALOG_DZ_TITLE" />
+            <ListPreference
+                android:defaultValue="3"
+                android:entries="@array/pref_dz_options"
+                android:entryValues="@array/pref_dz_values"
+                android:key="PREF_GAMEPAD_DZ"
+                android:title="@string/PREF_GAMEPAD_DZ_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="False"
+                android:key="PREF_PXASP1"
+                android:summary="@string/LISTITEM_SETTING_PXASP1_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_PXASP1_TITLE" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="general"
+            android:persistent="false"
+            android:summary="@string/LISTITEM_SETTING_GENERAL_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_GENERAL_TITLE" >
+            <PreferenceScreen
+                android:key="customControlLayout"
+                android:summary="@string/LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_CUSTOMCONTROLLAYOUT_TITLE" />
+            <PreferenceScreen
+                android:key="defaultControlLayout"
+                android:summary="@string/LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_DEFAULTCONTROLLAYOUT_TITLE" />
+
+            <ListPreference
+                android:defaultValue="3"
+                android:entries="@array/pref_buttons_size_options"
+                android:entryValues="@array/pref_buttons_size_values"
+                android:key="PREF_BUTTONS_SIZE"
+                android:title="@string/LISTITEM_SETTING_BUTTONS_SIZE_TITLE" />
+            <ListPreference
+                android:defaultValue="3"
+                android:entries="@array/pref_buttons_size_options"
+                android:entryValues="@array/pref_buttons_size_values"
+                android:key="PREF_STICK_SIZE"
+                android:title="@string/LISTITEM_SETTING_STICK_SIZE_TITLE" />
+            <ListPreference
+                android:defaultValue="-1"
+                android:entries="@array/pref_numbuttons_options"
+                android:entryValues="@array/pref_numbuttons_values"
+                android:key="PREF_NUMBUTTONS_2"
+                android:title="@string/LISTITEM_SETTING_NUMBUTTONS_2_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_HIDE_STICK"
+                android:summary="@string/LISTITEM_SETTING_HIDE_STICK_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_HIDE_STICK_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_GLOBAL_WARN_ON_EXIT"
+                android:summary="@string/LISTITEM_SETTING_WARN_ON_EXIT_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_WARN_ON_EXIT_TITLE" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="PREF_GLOBAL_SUSPEND_NOTIFICATION"
+                android:summary="@string/PREF_GLOBAL_SUSPEND_NOTIFICATION_SUMMARY"
+                android:title="@string/PREF_GLOBAL_SUSPEND_NOTIFICATION_TITLE" />
+
+            <ListPreference
+                android:defaultValue="2"
+                android:entries="@array/pref_overlay_intensity_options"
+                android:entryValues="@array/pref_overlay_intensity_values"
+                android:key="PREF_OVERLAY_INTENSITY"
+                android:title="@string/LISTITEM_SETTING_OVERLAY_INTENSITY_TITLE" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="advanced"
+            android:persistent="false"
+            android:summary="@string/LISTITEM_SETTING_ADVANCED_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_ADVANCED_TITLE" >
+            <com.yunluo.android.arcadehub.prefs.ListPrefWithWarn
+                android:defaultValue="2"
+                android:entries="@array/pref_global_video_render_options"
+                android:entryValues="@array/pref_global_video_render_values"
+                android:key="PREF_GLOBAL_VIDEO_RENDER_MODE_2"
+                android:title="@string/LISTITEM_SETTING_VIDEO_RENDER_MODE_2_TITLE" />
+            <com.yunluo.android.arcadehub.prefs.ListPrefWithWarn
+                android:defaultValue="1"
+                android:entries="@array/pref_sound_engine_options"
+                android:entryValues="@array/pref_sound_engine_values"
+                android:key="PREF_SOUND_ENGINE"
+                android:title="@string/LISTITEM_SETTING_SOUND_ENGINE_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.CheckBoxPrefWithWarn
+                android:defaultValue="True"
+                android:key="PREF_THREADED_VIDEO"
+                android:summary="@string/LISTITEM_SETTING_THREADED_VIDEO_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_THREADED_VIDEO_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.ListPrefWithWarn
+                android:defaultValue="2"
+                android:dependency="PREF_THREADED_VIDEO"
+                android:entries="@array/pref_low_norm_or_hight_options"
+                android:entryValues="@array/pref_low_norm_or_hight_values"
+                android:key="PREF_VIDEO_THREAD_PRIORITY"
+                android:title="@string/LISTITEM_SETTING_VIDEO_THREAD_PRIORITY_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.CheckBoxPrefWithWarn
+                android:defaultValue="True"
+                android:key="PREF_DOUBLE_BUFFER"
+                android:summary="@string/LISTITEM_SETTING_DOUBLE_BUFFER_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_DOUBLE_BUFFER_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.ListPrefWithWarn
+                android:defaultValue="2"
+                android:entries="@array/pref_low_norm_or_hight_options"
+                android:entryValues="@array/pref_low_norm_or_hight_values"
+                android:key="PREF_MAIN_THREAD_PRIORITY"
+                android:title="@string/PREF_MAIN_THREAD_PRIORITY_TITLE" />
+
+            <com.yunluo.android.arcadehub.prefs.CheckBoxPrefWithWarn
+                android:defaultValue="False"
+                android:key="PREF_FORCE_GLES10"
+                android:summary="@string/LISTITEM_SETTING_FORCE_GLES10_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_FORCE_GLES10_TITLE" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="PREF_GLOBAL_DEBUG"
+                android:summary="@string/LISTITEM_SETTING_DEBUG_SUMMARY"
+                android:title="@string/LISTITEM_SETTING_DEBUG_TITLE" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/LISTITEM_SETTING_PORTRAIT_TITLE" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_scaleMode_options"
+            android:entryValues="@array/pref_scaleMode_values"
+            android:key="PREF_PORTRAIT_SCALING_MODE_3"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_SCALING_MODE_3_TITLE" />
+        <ListPreference
+            android:defaultValue="none"
+            android:key="PREF_PORTRAIT_OVERLAY"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_OVERLAY_TITLE" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="PREF_PORTRAIT_TOUCH_CONTROLLER"
+            android:summary="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_TITLE" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="PREF_PORTRAIT_BITMAP_FILTERING"
+            android:summary="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_TITLE" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/LISTITEM_SETTING_LANSDSCAPE_TITLE" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_scaleMode_options"
+            android:entryValues="@array/pref_scaleMode_values"
+            android:key="PREF_LANDSCAPE_SCALING_MODE_3"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_SCALING_MODE_3_TITLE" />
+        <ListPreference
+            android:defaultValue="none"
+            android:key="PREF_LANDSCAPE_OVERLAY"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_OVERLAY_TITLE" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="PREF_LANDSCAPE_TOUCH_CONTROLLER"
+            android:summary="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_TOUCH_CONTROLLER_TITLE" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="PREF_LANDSCAPE_BITMAP_FILTERING"
+            android:summary="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_SUMMARY"
+            android:title="@string/LISTITEM_SETTING_LANDSCAPE_PORTRAIT_BITMAP_FILTERING_TITLE" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

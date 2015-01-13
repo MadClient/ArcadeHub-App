@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/help_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="@string/LISTITEM_ABOUT_HELP"
+			style="@style/all_title_style"
+            />
+<!--             android:textAppearance="?android:attr/textAppearanceLarge" -->
+<!--             android:textColor="@color/white" -->
+<!--             android:textSize="20sp"  -->
+<!--             android:background="@color/clr_green_light" -->
+<!--             android:gravity="center" -->
+
+        <ImageView
+            android:id="@+id/help_back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_back"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/help_scorll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/help_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:editable="false"
+            android:text="&lt;b>Hello&lt;b> 1234 |n"
+            android:textColor="@color/black"
+            android:typeface="monospace" >
+        </TextView>
+    </ScrollView>
+
+</LinearLayout>

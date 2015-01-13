@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ListText">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ListTextSmall">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.MAME4droid" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="Theme_Anim_Sherlock" mce_bogus="1" parent="@style/Theme.Sherlock">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="Theme_Anim_Activity" mce_bogus="1" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="Theme_Anim_Activity_Title" mce_bogus="1" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:colorBackgroundCacheHint">#00000000</item>
+    </style>
+
+    <style name="Theme.MAME4droid.TitleBar" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <!-- dialog popup anim -->
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+
+        <!--
+        <item name="android:windowEnterAnimation">@anim/dilalog_option_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_option_popup_exit</item>
+        -->
+        <item name="android:windowEnterAnimation">@anim/anim_down_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_down_out</item>
+    </style>
+
+    <!-- vertical menu popup anim -->
+    <style name="VerticalPopupAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_ver_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_ver_exit</item>
+    </style>
+
+    <style name="CustomDialog" mce_bogus="1" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_action</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_action</item>
+    </style>
+
+    <style name="myDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- // 除去title -->
+        <item name="android:windowBackground">@color/combination_dialog_bg</item>
+        <!-- // 除去背景 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- <item name="android:windowIsTranslucent">false</item> -->
+        <!-- 半透明 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置无遮罩层 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_enter_action</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_exit_action</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter_action</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit_action</item>
+    </style>
+
+    <style name="PushDialog" parent="android:Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/push_translucent</item>
+    </style>
+    
+    <!-- title style -->
+    <style name="all_title_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/clr_green_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+</resources>

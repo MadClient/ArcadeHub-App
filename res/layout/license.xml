@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/license_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/license_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/license_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/clr_green_light"
+            android:gravity="center"
+            android:text="@string/LISTITEM_ABOUT_PROTOCOL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <ImageView 
+            android:id="@+id/license_back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_back"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/license_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/license_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:text="&lt;b>Hello&lt;b> 1234 |n"
+            android:textColor="@color/black"
+            android:typeface="monospace" >
+        </TextView>
+    </ScrollView>
+
+</LinearLayout>

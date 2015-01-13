@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/emu_back_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/emulator_frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center" >
+
+        <FrameLayout
+            android:id="@+id/EmulatorFrame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center" >
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <com.yunluo.android.arcadehub.views.InputView
+        android:id="@+id/InputView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/nullview"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:soundEffectsEnabled="false"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/nullview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:visibility="gone" >
+
+        <View
+            android:id="@+id/perchView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#000000" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/emu_back_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/emulator_frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/InputView"
+        android:gravity="center" >
+
+        <FrameLayout
+            android:id="@+id/EmulatorFrame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+
+        <!-- <include layout="@+layout/key_macro_layout" /> -->
+    </RelativeLayout>
+
+<!--         android:layout_above="@+id/ad_view" -->
+    <com.yunluo.android.arcadehub.views.InputView
+        android:id="@+id/InputView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back_portrait" />
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00000000" >
+
+        <!--
+        <View
+            android:id="@+id/perchView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#000000" />
+        -->
+
+        <!-- <com.yunluo.android.arcadehub.ad.ADBanner
+            android:id="@+id/adbanner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />  -->
+    </RelativeLayout>
+
+</RelativeLayout><!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/emu_back_color"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/EmulatorFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" >
+    </FrameLayout>
+
+    <com.seleuco.mame4droid.views.InputView
+        android:id="@+id/InputView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back_portrait" />
+
+</LinearLayout>
+-->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plugin_list_gamemain"
+    android:layout_width="fill_parent"
+    android:layout_height="76dp"
+    android:background="#ffffff" >
+
+    <include layout="@layout/list_plugin_layout_behind" />
+
+    <include layout="@layout/list_plugin_layout_upper" />
+
+</RelativeLayout>

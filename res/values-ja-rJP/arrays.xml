@@ -1,0 +1,500 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_overlay_intensity_options">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_overlay_intensity_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_scaleMode_options">
+        <item> （縦横比を維持するために）スケーリング</item>
+        <item>フルスクリーンにストレッチ</item>
+        <item>の元のサイズ</item>
+        <item>サイズの1.5倍</item>
+        <item>はの 2倍のサイズ</item>
+        <item>2.5倍の大きさ</item>
+        <item>はの 3倍の大きさ</item>
+        <item>の3.5倍の大きさ   </item>
+        <item> はの4倍の大きさ</item>
+        <item>の4.5倍の大きさ</item>
+        <item> の5倍の大きさ</item>
+    </string-array>
+    <string-array name="pref_scaleMode_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+    </string-array>
+    <string-array name="pref_global_video_render_options">
+        <item>SW （互換） </item>
+        <item>GL （速い） </item>
+    </string-array>
+    <string-array name="pref_global_video_render_values">
+        <item> 1 </item>
+        <item> 2 </item>
+    </string-array>
+    <string-array name="pref_controller_type_options">
+        <item>デジタル（ DPAD ） </item>
+        <item>デジタルステッカー</item>
+        <item>のシミュレーション（パフォーマンス） </item>
+        <item>のアナログ（スムース） </item>
+    </string-array>
+    <string-array name="pref_controller_type_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+    <string-array name="pref_input_external_options">
+        <item>キーボード入力</item>
+        <item>自動を扱う</item>
+        <item>のデフォルト</item>
+        <item>ICP、 GametelまたはiCade互換性</item>
+    </string-array>
+    <string-array name="pref_input_external_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+    <string-array name="pref_dz_options">
+        <item>なし</item>
+        <item>低</item>
+        <item>は中</item>
+        <item>の高い</item>
+        <item>の非常に高い</item>
+    </string-array>
+    <string-array name="pref_dz_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_frameskip_options">
+        <item>自動</item>
+        <item>なし</item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_frameskip_values">
+        <item> -1 </item>
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_sound_options">
+        <item>閉じる</item>
+        <item>オープン（周波数11キロヘルツ） </item>
+        <item>オープン（周波数22 kHz）の</item>
+        <item>オープン（周波数33 kHz）の</item>
+        <item>オープン（周波数44 kHz）の</item>
+        <item>オープン（周波数48 kHz）の</item>
+    </string-array>
+    <string-array name="pref_sound_values">
+        <item> -1 </item>
+        <item>11025 </item>
+        <item>22050 </item>
+        <item> 32000</item>
+        <item>44100 </item>
+        <item>48000 </item>
+    </string-array>
+    <string-array name="pref_stick_options">
+        <item>自動</item>
+        <item>の2 - ウェイ</item>
+        <item>の4 - ウェイ</item>
+        <item> 8 - ウェイ</item>
+    </string-array>
+    <string-array name="pref_stick_values">
+        <item> -1 </item>
+        <item> 2 </item>
+        <item> 4 </item>
+        <item> 8 </item>
+    </string-array>
+    <string-array name="pref_numbuttons_options">
+        <item>自動</item>
+        <item> 0ボタン</item>
+        <item> 1ボタン</item>
+        <item>の2ボタン</item>
+        <item>の3つのボタン（ A = B + X ） </item>
+        <item>の3ボタン</item>
+        <item>の4ボタン</item>
+        <item>のすべてのボタン</item>
+    </string-array>
+    <string-array name="pref_numbuttons_values">
+        <item> -1 </item>
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 33 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_resolution_options">
+        <item>自動（推奨） </item>
+        <item>320x200</item>
+        <item>320×240 </item>
+        <item>400×300 </item>
+        <item>480x300 </item>
+        <item>512×384 </item>
+        <item>640×400 </item>
+        <item>640×480 </item>
+        <item>800×600 </item>
+        <item> 1024x768 </item>
+    </string-array>
+    <string-array name="pref_resolution_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+        <item> 10 </item>
+    </string-array>
+    <string-array name="pref_buttons_size_options">
+        <item>小さい</item>
+        <item>の小さな</item>
+        <item>通常の</item>
+        <item>ビッグ</item>
+        <item>の大きな</item>
+    </string-array>
+    <string-array name="pref_buttons_size_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_low_norm_or_hight_options">
+        <item>低</item>
+        <item>通常の</item>
+        <item>の高い</item>
+    </string-array>
+    <string-array name="pref_low_norm_or_hight_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+    </string-array>
+    <string-array name="pref_sound_engine_options">
+        <item>は聞こえる    </item>
+        <item>の長い待ち時間（セキュリティ） </item>
+        <item> OpenSL </item>
+        <item> OpenSL非常に低いレイテンシ（最高の） </item>
+    </string-array>
+    <string-array name="pref_sound_engine_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+    <string-array name="pref_speed_options">
+        <item>のデフォルト</item>
+        <item>の50％ 。 </item>
+        <item>の60％ 。 </item>
+        <item>の70％ 。 </item>
+        <item>の80パーセント。 </item>
+        <item>の85％ 。 </item>
+        <item>の90％ 。 </item>
+        <item>の95％ 。 </item>
+        <item> 100パーセント。 </item>
+        <item>105％ 。 </item>
+        <item>110パーセント 。 </item>
+        <item>115％ 。 </item>
+        <item> 120％。 </item>
+        <item>130パーセント 。 </item>
+        <item>140％ 。 </item>
+        <item>150％ 。 </item>
+    </string-array>
+    <string-array name="pref_speed_values">
+        <item> -1 </item>
+        <item> 50 </item>
+        <item> 60 </item>
+        <item> 70 </item>
+        <item> 80 </item>
+        <item> 85 </item>
+        <item> 90 </item>
+        <item> 95 </item>
+        <item> 100</item>
+        <item> 105</item>
+        <item>110 </item>
+        <item> 115</item>
+        <item> 120</item>
+        <item> 130</item>
+        <item>140 </item>
+        <item> 150</item>
+    </string-array>
+    <string-array name="pref_autofire_options">
+        <item>無効</item>
+        <item>速度1 </item>
+        <item>スピード2 </item>
+        <item>スピード3 </item>
+        <item>スピード4 </item>
+        <item>スピード5 </item>
+        <item>スピード6 </item>
+        <item>のスピード7 </item>
+        <item>スピード8 </item>
+        <item>のスピード9 </item>
+    </string-array>
+    <string-array name="pref_autofire_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+    </string-array>
+    <string-array name="pref_vsync_options">
+        <item>のセキュリティ（ゲームの話） </item>
+        <item>周波数50Hzの</item>
+        <item>周波数60HZ </item>
+        <item>システム - レポート</item>
+    </string-array>
+    <string-array name="pref_vsync_values">
+        <item> -1 </item>
+        <item>5000 </item>
+        <item> 6000</item>
+        <item> 3 </item>
+    </string-array>
+    <string-array name="pref_automap_options">
+        <item>の無効化をクリック</item>
+        <item>オプションと終了としてクリック</item>
+        <item>コインをクリックしてを開始 </item>
+        <item>オプションと終了など、L1 、 R1</item>
+        <item>コインとして、L1 、 R1とを始める</item>
+    </string-array>
+    <string-array name="pref_automap_values">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+    <string-array name="pref_tilt_neutralz_options">
+        <item>90度</item>
+        <item>80度</item>
+        <item>70度</item>
+        <item>60度</item>
+        <item>50度</item>
+        <item>45度</item>
+        <item>40度</item>
+        <item>30度</item>
+        <item>20度</item>
+        <item>10度</item>
+    </string-array>
+    <string-array name="pref_tilt_neutralz_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+        <item> 9 </item>
+    </string-array>
+    <string-array name="pref_px_options">
+        <item>MAME （オリジナルアーケード4/3 ） </item>
+        <item>ピクセルの条項を強制する</item>
+        <item>画素数規約（スマート） </item>
+    </string-array>
+    <string-array name="pref_px_values">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+    </string-array>
+    <string-array name="dialoghelper_option_list">
+        <item>のアーカイブ</item>
+        <item>のファイルを読み込む</item>
+        <!-- <item>一時停止/ < /アイテム[スタート]> -->
+        <item>ゴールドフィンガー</item>
+        <item>のキーの組み合わせ</item>
+        <item>のキーマクロ</item>
+        <item>の設定</item>
+    </string-array>
+    <!--
+<string-array name="dialoghelper_option_list">
+ゴールドフィンガー</item><item>
+</ item>は開始/一時停止<item>
+<item>のゲームを保存</item>
+<item>ロードゲーム</item>
+<item>のアーカイブ</item>
+<item>のリスト</item>
+<item>の設定</item>
+<item>のヘルプ</item>
+</ item>はについて<item>
+<item>のキーマクロ</item>
+<item>のキーの組み合わせ</item>
+
+<item>の他のゲーム</item>
+<item> WIFIゲーム</item>
+新しいゲーム</item><item>
+<item>のBTサーバ</item>
+<item>のBTクライアント</item>
+
+<item> WIFIサーバー</item>
+<item>無線LANクライアント</item>
+<item> WIFI住所</item>
+</string-array>
+    -->
+    <string-array name="dialoghelper_option_list_imgname">
+        <item> ic_save_white.PNG </item>
+        <item> ic_load_white.PNG </item>
+        <!-- <item> Ic_multikey_white.PNG </item> -->
+        <item> ic_cheat_white.PNG </item>
+        <item> ic_multipress_white.PNG </item>
+        <item> ic_multikey_white.PNG </item>
+        <item> ic_setting_white.PNG </item>
+    </string-array>
+    <string-array name="dialoghelper_option_img">
+
+        <!-- 白 -->
+        <item name="option_save_img"> @drawable/ic_save_white </item>
+        <item name="option_load_img"> @drawable/ic_load_white </item>
+        <!-- <item Name="option_suspend_img"> @drawable/ic_multikey_white </item> -->
+        <item name="option_cheat_img"> @drawable/ic_cheat_white </item>
+        <item name="option_multipress_img"> @drawable/ic_multipress_white </item>
+        <item name="option_multikey_img"> @drawable/ic_multikey_white </item>
+        <item name="option_setting_img"> @drawable/ic_setting_white </item>
+    </string-array>
+
+    <array name="dialoghelper_option_id">
+        <item>@id/option_save </item>
+        <item>@id/option_load </item>
+        <!-- <item>@id/option_suspend </item> -->
+        <item>@id/option_cheat </item>
+        <item>@id/option_multipress </item>
+        <item>@id/option_multikey </item>
+        <item>@id/option_setting </item>
+    </array>
+
+    <string-array name="sliding_title">
+
+        <!-- <item Name="sliding_search_title">リフレッシュ</item> -->
+        <!-- < /商品Name="sliding_hiscore_title">リストを<item > -->
+        <!-- <item Name="sliding_recommend_title">勧告</item> -->
+        <!-- <item Name="sliding_help_title">ヘルプ</item> -->
+        <item name="sliding_save_title"> ファイルを読む</item>
+        <item name="sliding_setting_title"> セット</item>
+        <item name="sliding_about_title">について </item>
+        <item name="sliding_exit_title">終了</item>
+    </string-array>
+
+    <array name="sliding_img">
+        <item name="sliding_save_img"> @drawable/ic_sliding_archive</item>
+        <item name="sliding_setting_img">@drawable/ic_sliding_setting </item>
+        <item name="sliding_about_img"> @drawable/ic_sliding_about </item>
+        <item name="sliding_exit_img">@drawable/ic_sliding_exit </item>
+    </array>
+    <array name="sliding_id">
+        <item>@id/sliding_save </item>
+        <item>@id/sliding_setting </item>
+        <item>@id/sliding_about </item>
+        <item>@id/sliding_exit </item>
+    </array>
+
+    <string-array name="dl_url_name">
+        <item> 1 ~ ba MAME </item>
+        <item> ba ca ~ MAME </item>
+        <item> ca ~ ct MAME </item>
+        <item> ct ~ ds MAME </item>
+        <item> ds ~ ga MAME </item>
+        <item> ga ~ ha MAME </item>
+        <item> ha ~ ka MAME </item>
+        <item> ka ~ ma MAME </item>
+        <item> ma ~ mq MAME </item>
+        <item> mr ~ oz MAME </item>
+        <item> p4 ~ pp MAME </item>
+        <item> pr ~ ro MAME </item>
+        <item> ro ~ sh MAME </item>
+        <item> sh ~ ss MAME </item>
+        <item> ss ~ º MAME </item>
+        <item> ti ~ vh MAME </item>
+        <item> vi ~ zz MAME </item>
+    </string-array>
+    <string-array name="dl_url_item">
+        <item> 66528 </item>
+        <item> 66008 </item>
+        <item> 65489 </item>
+        <item> 64966 </item>
+        <item> 64447 </item>
+        <item> 63929 </item>
+        <item> 63408 </item>
+        <item> 62886 </item>
+        <item> 62886 </item>
+        <item> 62371 </item>
+        <item> 61858 </item>
+        <item> 61344 </item>
+        <item> 60818 </item>
+        <item> 60298 </item>
+        <item> 59770 </item>
+        <item> 59243 </item>
+        <item> 58739 </item>
+        <item> 58246 </item>
+    </string-array>
+    <!-- share -->
+    <string-array name="share_img">
+        <item name="share_sina_img">@drawable/ic_sina</item>
+        <item name="share_wechat_img">@drawable/ic_wechat</item>
+        <item name="share_facebook_img">@drawable/ic_facebook</item>
+        <item name="share_twitter_img">@drawable/ic_twitter</item>
+    </string-array>
+
+    <array name="share_id">
+        <item>@id/share_sina_id</item>
+        <item>@id/share_wechat_id</item>
+        <item>@id/share_facebook_id</item>
+        <item>@id/share_twitter_id</item>
+    </array>
+
+</resources>

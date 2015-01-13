@@ -1,0 +1,29 @@
+Centro de Arcade
+
+1.juego añadido
+
+  Los jugadores pueden ser colocados en la tarjeta de juego de rom sd ( centros de juego de teléfono en ejecución debe insertar la tarjeta sd) , juegos de arcade rom detecta la posición del centro de facilitar a los jugadores cargados directamente .
+         
+2.función de trucos :
+
+Centro tramposo juego de Arcade tramposo ofrece la función abierta. Comience Método: En la interfaz de juego de correr , exhalado el menú Opciones, seleccione cheat cheat cheat cheat en tramposo abrir una opción de interfaz específico.
+         
+3.una combinación de las características clave :
+
+A las combinaciones de teclas de función se pueden convertir en un funciones de los botones separados presionando simultáneamente los botones efecto múltiple. Método de activación : En la interfaz del juego en funcionamiento, exhaló el menú Opciones, seleccione la combinación de teclas para abrir la tecla del panel de configuración de combinación, el botón de tecla de combinación Layout para deslizarse hacia arriba y hacia abajo del lado izquierdo con el fin de confirmar el efecto de un solo botón en las necesidades fundamentales a convertir , el lado derecho de la disposición puede ser de elección múltiple combinación de teclas . Los jugadores pueden establecer varias combinaciones de teclas clave.
+
+4.Clave macro rojo puede:
+         
+Puede grabar una macro protagonistas función a través de una secuencia específica de teclas y un botón separado para utilizar varias veces. Método de activación : En el juego corriendo interfaz, exhaló el menú Opciones, seleccione el botón de macro , abra la disposición de los botones Configuración de macros , macros disposición de los botones se deslizan hacia arriba y hacia abajo con el botón izquierdo para confirmar el efecto de un solo botón en las necesidades fundamentales a convertir , la parte lateral derecha de la distribución es la combinación de teclas para registrar , los jugadores pueden operar por debajo de los joysticks y botones con el fin de grabar , mientras que los errores de grabación pueden ser revocados por el botón inferior derecho de ordenar una sola acción del botón revocación. Los jugadores pueden grabar una macro teclas de los botones, las teclas y combinaciones de teclas no se pueden activar simultáneamente.
+         
+5.juego guarda función de lectura :
+
+Centros de juego Arcade pueden ser el archivado instantáneo actual y leer. Método de activación : En la interfaz del juego en funcionamiento, exhaló el menú Opciones, seleccione el archivo ( leer archivos ) , la interfaz de archivo, haga clic en ya existente Guardar partida se archivará la cobertura , haga click en la opción de crear un nuevo archivo se guarda una nueva archivos de juegos . En la lectura de las opciones de interfaz de archivo que puede seleccionar el archivo del juego para leer los archivos ya almacenados.
+        
+6.juegos de Bluetooth:
+
+Se les pide a los jugadores la opción Bluetooth , la elección es para entrar en modo de espera, tal como se encuentra por otros jugadores , haga clic en los otros jugadores en el modo conectado , la conexión es correcta para iniciar el juego (Nota: Si la persona no existe paquete de juego , entrar en el modo de transferencia de archivos , transferencia de archivos se realiza iniciar directamente el juego) .
+        
+7.Juego online:
+
+Seleccione Sí para entrar en el modo de espera, según lo encontrado por otros jugadores , haga clic en los otros jugadores en el modo conectado , la conexión es correcta para iniciar el juego (Nota: Si la persona no existe paquete de juego , entrar en el modo de transferencia de archivos , transferencia de archivos se realiza directamente iniciar el juego ) .
